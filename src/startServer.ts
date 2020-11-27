@@ -42,7 +42,7 @@ export default async function () {
 		app,
 		cors: {
 			credentials: true,
-			origin: "https://youthful-boyd-7450ed.netlify.app"
+			origin: "https://yourcollab.netlify.app"
 		}
 	});
 
