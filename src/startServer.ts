@@ -42,7 +42,7 @@ export default async function () {
 		app,
 		cors: {
 			credentials: true,
-			origin: "http://localhost:9000"
+			origin: "https://youthful-boyd-7450ed.netlify.app"
 		}
 	});
 
