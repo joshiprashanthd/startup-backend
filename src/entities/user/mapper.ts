@@ -1,7 +1,7 @@
 //local
 import { IContext } from "../../types";
 import { mapSkillIds } from "../skill/mapper";
-import { IUserDocument } from "./Model";
+import { IUserDocument } from "./model";
 import { IUser } from "./typedef";
 
 export const mapUser = (user: IUserDocument, context: IContext): IUser => {
