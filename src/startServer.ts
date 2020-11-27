@@ -1,8 +1,6 @@
 import { ApolloServer } from "apollo-server-express";
 import express from "express";
 
-console.log(process.env.PORT);
-
 //local
 import { TypeDefs, Resolvers } from "./entities";
 import SchemaDirectives from "./entities/customDirectives";
@@ -10,6 +8,7 @@ import session from "./session";
 import dataloaders from "./dataloaders";
 import routes from "./routes";
 import { IContext } from "./types";
+import { NodeConfig } from "./config";
 
 export default async function () {
 	const app = express();
@@ -22,11 +21,14 @@ export default async function () {
 		typeDefs: TypeDefs,
 		resolvers: Resolvers,
 		schemaDirectives: SchemaDirectives,
-		playground: {
-			settings: {
-				"request.credentials": "include"
-			}
-		},
+		playground:
+			NodeConfig.nodeEnvironment === "production"
+				? false
+				: {
+						settings: {
+							"request.credentials": "include"
+						}
+				  },
 		context: async ({ req, res }): Promise<IContext> => {
 			return {
 				req,
