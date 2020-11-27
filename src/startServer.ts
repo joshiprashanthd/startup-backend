@@ -1,6 +1,8 @@
 import { ApolloServer } from "apollo-server-express";
 import express from "express";
 
+console.log(process.env.PORT);
+
 //local
 import { TypeDefs, Resolvers } from "./entities";
 import SchemaDirectives from "./entities/customDirectives";
