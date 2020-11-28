@@ -22,7 +22,7 @@ export default async function () {
 	app.disable("x-powered-by");
 	app.use(
 		cors({
-			origin,
+			origin: "https://yourcollab.netlify.app",
 			credentials: true
 		})
 	);
@@ -54,7 +54,7 @@ export default async function () {
 		app,
 		cors: {
 			credentials: true,
-			origin
+			origin: "https://yourcollab.netlify.app"
 		}
 	});
 
