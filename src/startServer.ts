@@ -48,7 +48,7 @@ export default async function () {
 		app,
 		cors: {
 			credentials: true,
-			origin: "*"
+			origin: new RegExp("/*/")
 		}
 	});
 
