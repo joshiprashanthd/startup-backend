@@ -1,258 +1,1298 @@
-(()=>{"use strict";var e={5232:function(e,t,n){var o,r,i,u=this&&this.__createBinding||(Object.create?function(e,t,n,o){void 0===o&&(o=n),Object.defineProperty(e,o,{enumerable:!0,get:function(){return t[n]}})}:function(e,t,n,o){void 0===o&&(o=n),e[o]=t[n]}),s=this&&this.__setModuleDefault||(Object.create?function(e,t){Object.defineProperty(e,"default",{enumerable:!0,value:t})}:function(e,t){e.default=t}),a=this&&this.__importStar||function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)"default"!==n&&Object.prototype.hasOwnProperty.call(e,n)&&u(t,e,n);return s(t,e),t};Object.defineProperty(t,"__esModule",{value:!0}),a(n(334)).config(),t.default={gmailUser:null!==(o=process.env.GMAIL_USER)&&void 0!==o?o:"",gmailPassword:null!==(r=process.env.GMAIL_PASSWORD)&&void 0!==r?r:"",gmailSender:null!==(i=process.env.GMAIL_SENDER)&&void 0!==i?i:"prashantjoshi@collabs.com"}},2275:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.NodeConfig=t.GmailConfig=t.TokenConfig=t.MongoConfig=t.SessionConfig=void 0;var r=n(9696);Object.defineProperty(t,"SessionConfig",{enumerable:!0,get:function(){return o(r).default}});var i=n(5466);Object.defineProperty(t,"MongoConfig",{enumerable:!0,get:function(){return o(i).default}});var u=n(5736);Object.defineProperty(t,"TokenConfig",{enumerable:!0,get:function(){return o(u).default}});var s=n(5232);Object.defineProperty(t,"GmailConfig",{enumerable:!0,get:function(){return o(s).default}});var a=n(7173);Object.defineProperty(t,"NodeConfig",{enumerable:!0,get:function(){return o(a).default}})},5466:function(e,t,n){var o,r,i,u=this&&this.__createBinding||(Object.create?function(e,t,n,o){void 0===o&&(o=n),Object.defineProperty(e,o,{enumerable:!0,get:function(){return t[n]}})}:function(e,t,n,o){void 0===o&&(o=n),e[o]=t[n]}),s=this&&this.__setModuleDefault||(Object.create?function(e,t){Object.defineProperty(e,"default",{enumerable:!0,value:t})}:function(e,t){e.default=t}),a=this&&this.__importStar||function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)"default"!==n&&Object.prototype.hasOwnProperty.call(e,n)&&u(t,e,n);return s(t,e),t};Object.defineProperty(t,"__esModule",{value:!0}),a(n(334)).config(),t.default={mongoUserName:null!==(o=process.env.MONGO_USER)&&void 0!==o?o:"",mongoUserPassword:null!==(r=process.env.MONGO_PASSWORD)&&void 0!==r?r:"",mongoDatabaseName:null!==(i=process.env.MONGO_DATABASE)&&void 0!==i?i:""}},7173:function(e,t,n){var o=this&&this.__createBinding||(Object.create?function(e,t,n,o){void 0===o&&(o=n),Object.defineProperty(e,o,{enumerable:!0,get:function(){return t[n]}})}:function(e,t,n,o){void 0===o&&(o=n),e[o]=t[n]}),r=this&&this.__setModuleDefault||(Object.create?function(e,t){Object.defineProperty(e,"default",{enumerable:!0,value:t})}:function(e,t){e.default=t}),i=this&&this.__importStar||function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)"default"!==n&&Object.prototype.hasOwnProperty.call(e,n)&&o(t,e,n);return r(t,e),t};Object.defineProperty(t,"__esModule",{value:!0}),i(n(334)).config(),t.default={nodeEnvironment:null!=="production"?"production":"development"}},9696:function(e,t,n){var o,r,i,u=this&&this.__createBinding||(Object.create?function(e,t,n,o){void 0===o&&(o=n),Object.defineProperty(e,o,{enumerable:!0,get:function(){return t[n]}})}:function(e,t,n,o){void 0===o&&(o=n),e[o]=t[n]}),s=this&&this.__setModuleDefault||(Object.create?function(e,t){Object.defineProperty(e,"default",{enumerable:!0,value:t})}:function(e,t){e.default=t}),a=this&&this.__importStar||function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)"default"!==n&&Object.prototype.hasOwnProperty.call(e,n)&&u(t,e,n);return s(t,e),t};Object.defineProperty(t,"__esModule",{value:!0}),a(n(334)).config(),t.default={sessionName:null!==(o=process.env.SESSION_NAME)&&void 0!==o?o:"",sessionLifetime:null!==(r=process.env.SESSION_LIFETIME)&&void 0!==r?r:"1800000",sessionSecret:null!==(i=process.env.SESSION_SECRET)&&void 0!==i?i:"secret"}},5736:function(e,t,n){var o,r,i=this&&this.__createBinding||(Object.create?function(e,t,n,o){void 0===o&&(o=n),Object.defineProperty(e,o,{enumerable:!0,get:function(){return t[n]}})}:function(e,t,n,o){void 0===o&&(o=n),e[o]=t[n]}),u=this&&this.__setModuleDefault||(Object.create?function(e,t){Object.defineProperty(e,"default",{enumerable:!0,value:t})}:function(e,t){e.default=t}),s=this&&this.__importStar||function(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var n in e)"default"!==n&&Object.prototype.hasOwnProperty.call(e,n)&&i(t,e,n);return u(t,e),t};Object.defineProperty(t,"__esModule",{value:!0}),s(n(334)).config(),t.default={tokenSecret:null!==(o=process.env.TOKEN_SECRET)&&void 0!==o?o:"pokjnlakjdshq",tokenExpiry:null!==(r=process.env.TOKEN_EXPIRY)&&void 0!==r?r:43200..toString()}},3396:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(5619)),u=n(2275);t.default=function(){return o(this,void 0,void 0,(function*(){let e=!1;try{yield i.default.connect(`mongodb+srv://${u.MongoConfig.mongoUserName}:${u.MongoConfig.mongoUserPassword}@cluster0.vuqtk.mongodb.net/${u.MongoConfig.mongoDatabaseName}?retryWrites=true&w=majority`,{useUnifiedTopology:!0,useNewUrlParser:!0,useFindAndModify:!1})}catch(t){e=!0}finally{e?console.log("[MONGOOSE] error connecting to MongoDB"):console.log("[SERVER] connected to database")}}))}},4769:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(8712)),u=r(n(5619)),s=n(5439);function a(e){return o(this,void 0,void 0,(function*(){const t=u.default.model("Conversation"),n=yield t.find({_id:{$in:e}}),o=s.groupBy((e=>e.id),n);return s.map((e=>o[e][0]),e)}))}t.default=()=>new i.default(a)},985:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(1107)),i=o(n(4365)),u=o(n(3721)),s=o(n(4769));t.default={userLoader:r.default(),skillLoader:i.default(),messageLoader:u.default(),conversationLoader:s.default()}},3721:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(8712)),u=r(n(5619)),s=n(5439);function a(e){return o(this,void 0,void 0,(function*(){const t=u.default.model("Message"),n=yield t.find({_id:{$in:e}}),o=s.groupBy((e=>e.id),n);return s.map((e=>o[e][0]),e)}))}t.default=()=>new i.default(a)},4365:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(8712)),u=r(n(5619)),s=n(5439);function a(e){return o(this,void 0,void 0,(function*(){const t=u.default.model("Skill"),n=yield t.find({_id:{$in:e}}),o=s.groupBy((e=>e.id),n);return s.map((e=>o[e][0]),e)}))}t.default=()=>new i.default(a)},1107:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(8712)),u=r(n(5619)),s=n(5439);function a(e){return o(this,void 0,void 0,(function*(){const t=u.default.model("User"),n=yield t.find({_id:{$in:e}}),o=s.groupBy((e=>e.id),n);return s.map((e=>o[e][0]),e)}))}t.default=()=>new i.default(a)},6199:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.ConversationResolvers=t.ConversationTypeDef=void 0;var r=n(2642);Object.defineProperty(t,"ConversationTypeDef",{enumerable:!0,get:function(){return o(r).default}});var i=n(1204);Object.defineProperty(t,"ConversationResolvers",{enumerable:!0,get:function(){return o(i).default}})},1667:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.mapConversations=t.mapConversation=void 0;const o=n(1639),r=n(6313);t.mapConversation=(e,t)=>({id:e.id,conversers:r.mapUserIds(e.conversers.map((e=>e.toString())),t),messages:o.mapMessageIds(e.messages.map((e=>e.toString())),t),createdAt:e.createdAt,updatedAt:e.updatedAt}),t.mapConversations=(e,n)=>e.map((e=>t.mapConversation(e,n)))},9643:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.Conversation=void 0;var r=n(5823);Object.defineProperty(t,"Conversation",{enumerable:!0,get:function(){return o(r).default}})},5823:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(5619)),i=r.default.Schema,u=new i({conversers:[{type:i.Types.ObjectId,ref:"User"}],messages:[{type:i.Types.ObjectId,ref:"Message"}]},{timestamps:!0});t.default=r.default.model("Conversation",u)},1204:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(742));t.default=Object.assign({},r.default)},742:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(1667),i=n(9643);t.default={Query:{conversationsByUser:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){})),conversations:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){return(yield i.Conversation.find({})).map((e=>r.mapConversation(e,n)))}))}}},2642:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	extend type Query {
-		conversations: [Conversation!]
-		conversationsByUser(converserId: ID!): [Conversation!]
-	}
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is not neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
 
-	type Conversation {
-		id: ID!
-		conversers: [User!]
-		messages(cursor: ID, limit: Int = 50): [Message!]
-		createdAt: Date!
-		updatedAt: Date!
-	}
-`},4664:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(8262),i=n(9313),u=n(866);class s extends r.SchemaDirectiveVisitor{visitFieldDefinition(e){const{resolve:t=i.defaultFieldResolver}=e;e.resolve=function(...e){return o(this,void 0,void 0,(function*(){const[n,o,r]=e;return u.ensureSignedIn(r),t.apply(this,e)}))}}}t.default=s},3506:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(8262),i=n(9313),u=n(866);class s extends r.SchemaDirectiveVisitor{visitFieldDefinition(e){const{resolve:t=i.defaultFieldResolver}=e;e.resolve=function(...e){return o(this,void 0,void 0,(function*(){const[n,o,r]=e;return u.ensureSignedOut(r),t.apply(this,e)}))}}}t.default=s},115:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.PrivateDirective=t.GuestDirective=t.AuthDirective=void 0;var r=n(4664);Object.defineProperty(t,"AuthDirective",{enumerable:!0,get:function(){return o(r).default}});var i=n(3506);Object.defineProperty(t,"GuestDirective",{enumerable:!0,get:function(){return o(i).default}});var u=n(3095);Object.defineProperty(t,"PrivateDirective",{enumerable:!0,get:function(){return o(u).default}})},3095:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(8262),i=n(9313);class u extends r.SchemaDirectiveVisitor{visitFieldDefinition(e){const{resolve:t=i.defaultFieldResolver}=e;e.resolve=function(...n){return o(this,void 0,void 0,(function*(){const[o,r,i,u]=n;return o.id===i.req.session.userId&&"userId"in i.req.session||(o[e.name]=null),t.apply(this,[o,r,i,u])}))}}}t.default=u},3180:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.DirectivesTypeDef=void 0;const r=n(115);var i=n(8542);Object.defineProperty(t,"DirectivesTypeDef",{enumerable:!0,get:function(){return o(i).default}}),t.default={auth:r.AuthDirective,guest:r.GuestDirective,private:r.PrivateDirective}},8542:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	directive @guest on FIELD_DEFINITION
-	directive @auth on FIELD_DEFINITION
-	directive @private on FIELD_DEFINITION
-`},5116:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.CustomScalarResolvers=t.CustomScalarTypeDef=void 0;var r=n(5346);Object.defineProperty(t,"CustomScalarTypeDef",{enumerable:!0,get:function(){return o(r).default}});var i=n(3277);Object.defineProperty(t,"CustomScalarResolvers",{enumerable:!0,get:function(){return o(i).default}})},8822:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(9313),r=n(7772);t.default={Date:new o.GraphQLScalarType({name:"Date",description:"Date custom scalar type",parseValue:e=>new Date(e),serialize:e=>e.getTime(),parseLiteral:e=>e.kind===r.Kind.INT?parseInt(e.value,10):null})}},3277:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(8822));t.default=Object.assign({},r.default)},5346:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	scalar Date
-`},25:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.Resolvers=t.TypeDefs=void 0;var r=n(5775);Object.defineProperty(t,"TypeDefs",{enumerable:!0,get:function(){return o(r).default}});var i=n(3465);Object.defineProperty(t,"Resolvers",{enumerable:!0,get:function(){return o(i).default}})},4643:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.MessageResolvers=t.MessageTypeDef=void 0;var r=n(5122);Object.defineProperty(t,"MessageTypeDef",{enumerable:!0,get:function(){return o(r).default}});var i=n(5737);Object.defineProperty(t,"MessageResolvers",{enumerable:!0,get:function(){return o(i).default}})},1639:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0}),t.mapMessageIds=t.mapMessage=void 0;const r=n(6313);t.mapMessage=(e,t)=>({id:e.id,body:e.body,read:e.read,createdAt:e.createdAt,updatedAt:e.updatedAt,sender:r.mapUserId(e.sender.toString(),t),receiver:r.mapUserId(e.receiver.toString(),t)}),t.mapMessageIds=(e,n)=>()=>o(void 0,void 0,void 0,(function*(){return(yield n.dataloaders.messageLoader.loadMany(e)).map((e=>t.mapMessage(e,n)))}))},1745:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.Message=void 0;var r=n(5533);Object.defineProperty(t,"Message",{enumerable:!0,get:function(){return o(r).default}})},5533:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(5619)),i=r.default.Schema,u=new i({sender:{type:i.Types.ObjectId,ref:"User"},receiver:{type:i.Types.ObjectId,ref:"User"},body:{type:String,required:!0},read:{type:Boolean,required:!0,default:!1}},{timestamps:!0});t.default=r.default.model("Message",u)},5737:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(4263)),i=o(n(7801));t.default=Object.assign(Object.assign({},r.default),i.default)},7801:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(9643),i=n(3766),u=n(1639),s=n(1745);t.default={Mutation:{createMessage:(e,t,n,a)=>o(void 0,void 0,void 0,(function*(){const e=yield s.Message.create({sender:t.input.senderId,receiver:t.input.receiverId,body:t.input.body}),o=yield r.Conversation.findOne({conversers:{$all:[t.input.senderId,t.input.receiverId]}});if(!o){const o=yield r.Conversation.create({conversers:[t.input.senderId,t.input.receiverId]});return yield o.updateOne({messages:[e.id]}),yield i.User.findByIdAndUpdate(t.input.senderId,{$push:{conversations:o.id}}),yield i.User.findByIdAndUpdate(t.input.receiverId,{$push:{conversations:o.id}}),u.mapMessage(e,n)}return yield o.updateOne({$push:{messages:{$each:[e.id],$position:0}}}),u.mapMessage(e,n)})),editMessage:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){const e=yield s.Message.findByIdAndUpdate(t.messageId,{body:t.body},{new:!0});return u.mapMessage(e,n)})),removeMessage:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){return!!(yield s.Message.findByIdAndDelete(t.messageId))}))}}},4263:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(1639),i=n(1745);t.default={Query:{messages:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){return(yield i.Message.find({})).map((e=>r.mapMessage(e,n)))}))}}},5122:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	input StrictMessageInput {
-		senderId: ID!
-		receiverId: ID!
-		body: String!
-	}
+/***/ "./src/config/gmail.config.ts":
+/*!************************************!*\
+  !*** ./src/config/gmail.config.ts ***!
+  \************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	extend type Query {
-		messages: [Message!]
-	}
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar _a, _b, _c;\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dotenv = __importStar(__webpack_require__(/*! dotenv */ \"dotenv\"));\r\ndotenv.config();\r\nexports.default = {\r\n    gmailUser: (_a = process.env.GMAIL_USER) !== null && _a !== void 0 ? _a : \"\",\r\n    gmailPassword: (_b = process.env.GMAIL_PASSWORD) !== null && _b !== void 0 ? _b : \"\",\r\n    gmailSender: (_c = process.env.GMAIL_SENDER) !== null && _c !== void 0 ? _c : \"prashantjoshi@collabs.com\"\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/config/gmail.config.ts?");
 
-	extend type Mutation {
-		createMessage(input: StrictMessageInput!): Message!
-		removeMessage(messageId: ID!): Boolean!
-		editMessage(body: String!, messageId: ID!): Message!
-	}
+/***/ }),
 
-	type Message {
-		id: ID!
-		sender: User!
-		receiver: User!
-		body: String!
-		read: Boolean!
-		createdAt: Date!
-		updatedAt: Date!
-	}
-`},7137:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.ProjectRequestTypeDef=t.ProjectRequestResolvers=void 0;var r=n(7374);Object.defineProperty(t,"ProjectRequestResolvers",{enumerable:!0,get:function(){return o(r).default}});var i=n(8555);Object.defineProperty(t,"ProjectRequestTypeDef",{enumerable:!0,get:function(){return o(i).default}})},8905:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0}),t.mapProjectRequest=void 0;const r=n(7247),i=n(6313);t.mapProjectRequest=(e,t)=>({id:e.id,from:i.mapUserId(e.from,t),to:()=>o(void 0,void 0,void 0,(function*(){return r.Project.findById(e.to)})),message:e.message,status:e.status,createdAt:e.createdAt,updatedAt:e.updatedAt})},8158:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.ProjectRequest=void 0;var r=n(2906);Object.defineProperty(t,"ProjectRequest",{enumerable:!0,get:function(){return o(r).default}})},2906:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(5619)),i=r.default.Schema,u=new i({from:{type:i.Types.ObjectId,ref:"User"},to:{type:i.Types.ObjectId,ref:"Project"},message:String,status:{type:String,enum:["PENDING","ACCEPTED","DENIED"],required:!0,default:"PENDING"}},{timestamps:!0});t.default=r.default.model("ProjectRequest",u)},6185:(e,t)=>{var n;Object.defineProperty(t,"__esModule",{value:!0}),t.ProjectRequestStatusEnum=void 0,(n=t.ProjectRequestStatusEnum||(t.ProjectRequestStatusEnum={})).PENDING="PENDING",n.ACCEPTED="ACCEPTED",n.DENIED="DENIED"},7374:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(6482)),i=o(n(1120));t.default=Object.assign(Object.assign({},i.default),r.default)},1120:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(8262),i=n(7247),u=n(8905),s=n(8158),a=n(6185);t.default={Mutation:{toggleRequestProject:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){const e=yield s.ProjectRequest.findOne({from:n.req.session.userId,to:t.projectId});if(e)return yield e.deleteOne(((e,t)=>{if(e)throw new r.ApolloError(e)})),!1;if((yield i.Project.findById(t.projectId)).details.creator.toString()===n.req.session.userId.toString())throw new r.ApolloError("You cannot request your own project.");return yield s.ProjectRequest.create({from:n.req.session.userId,to:t.projectId,status:a.ProjectRequestStatusEnum.PENDING,message:0===t.message.length?null:t.message}),!0})),acceptProjectRequest:(e,t,n,d)=>o(void 0,void 0,void 0,(function*(){const e=yield s.ProjectRequest.findById(t.projectRequestId),o=yield i.Project.findById(e.to);if(o.details.creator.toString()!==n.req.session.userId.toString())throw new r.AuthenticationError("Your are not allowed to accept this request.");if(e.status===a.ProjectRequestStatusEnum.ACCEPTED)throw new r.ApolloError("Request is already accepted.");const d=yield s.ProjectRequest.findByIdAndUpdate(e.id,{status:a.ProjectRequestStatusEnum.ACCEPTED},{new:!0});return yield o.updateOne({$push:{"work.team":d.from}}),u.mapProjectRequest(d,n)}))}}},6482:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(8905),i=n(8158);t.default={Query:{projectRequests:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){return(yield i.ProjectRequest.find({})).map((e=>r.mapProjectRequest(e,n)))}))}}},8555:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	enum RequestStatusEnum {
-		PENDING
-		ACCEPTED
-		DENIED
-	}
+/***/ "./src/config/index.ts":
+/*!*****************************!*\
+  !*** ./src/config/index.ts ***!
+  \*****************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	type ProjectRequest {
-		id: ID!
-		from: User!
-		to: Project!
-		message: String
-		status: RequestStatusEnum!
-		createdAt: Date!
-		updatedAt: Date!
-	}
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.NodeConfig = exports.GmailConfig = exports.TokenConfig = exports.MongoConfig = exports.SessionConfig = void 0;\r\nvar session_config_1 = __webpack_require__(/*! ./session.config */ \"./src/config/session.config.ts\");\r\nObject.defineProperty(exports, \"SessionConfig\", ({ enumerable: true, get: function () { return __importDefault(session_config_1).default; } }));\r\nvar mongo_config_1 = __webpack_require__(/*! ./mongo.config */ \"./src/config/mongo.config.ts\");\r\nObject.defineProperty(exports, \"MongoConfig\", ({ enumerable: true, get: function () { return __importDefault(mongo_config_1).default; } }));\r\nvar token_config_1 = __webpack_require__(/*! ./token.config */ \"./src/config/token.config.ts\");\r\nObject.defineProperty(exports, \"TokenConfig\", ({ enumerable: true, get: function () { return __importDefault(token_config_1).default; } }));\r\nvar gmail_config_1 = __webpack_require__(/*! ./gmail.config */ \"./src/config/gmail.config.ts\");\r\nObject.defineProperty(exports, \"GmailConfig\", ({ enumerable: true, get: function () { return __importDefault(gmail_config_1).default; } }));\r\nvar node_config_1 = __webpack_require__(/*! ./node.config */ \"./src/config/node.config.ts\");\r\nObject.defineProperty(exports, \"NodeConfig\", ({ enumerable: true, get: function () { return __importDefault(node_config_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/config/index.ts?");
 
-	extend type Query {
-		projectRequests: [ProjectRequest!]
-	}
+/***/ }),
 
-	extend type Mutation {
-		toggleRequestProject(message: String!, projectId: ID!): Boolean! @auth
-		acceptProjectRequest(projectRequestId: ID!): ProjectRequest! @auth
-	}
-`},2103:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.ProjectTypeDef=t.ProjectResolvers=void 0;var r=n(7034);Object.defineProperty(t,"ProjectResolvers",{enumerable:!0,get:function(){return o(r).default}});var i=n(1679);Object.defineProperty(t,"ProjectTypeDef",{enumerable:!0,get:function(){return o(i).default}})},67:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0}),t.mapProject=void 0;const r=n(8905),i=n(8158),u=n(5431),s=n(6313);t.mapProject=(e,t)=>({id:e.id,details:Object.assign(Object.assign({},e.details),{skillSet:u.mapSkillIds(e.details.skillSet,t),creator:s.mapUserId(e.details.creator,t),stars:s.mapUserIds(e.details.stars,t),requests:()=>o(void 0,void 0,void 0,(function*(){return(yield i.ProjectRequest.find({to:e.id})).map((e=>r.mapProjectRequest(e,t)))}))}),isStarred:e.details.stars.includes(t.req.session.userId),isRequested:()=>o(void 0,void 0,void 0,(function*(){return null!==(yield i.ProjectRequest.findOne({from:t.req.session.userId,to:e.id}))})),state:e.state,work:{team:s.mapUserIds(e.work.team,t)},createdAt:e.createdAt,updatedAt:e.updatedAt})},7247:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.Project=void 0;var r=n(4560);Object.defineProperty(t,"Project",{enumerable:!0,get:function(){return o(r).default}})},4560:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(5619)),i=r.default.Schema,u=new i({details:{title:{type:String,required:!0},description:{type:String,required:!0},startingOn:{type:Date,required:!0},duration:{type:Number,required:!0},maxTeamMembers:{type:Number,required:!0},creator:{type:i.Types.ObjectId,ref:"User"},skillSet:[{type:i.Types.ObjectId,ref:"Skill"}],stars:[{type:i.Types.ObjectId,ref:"User"}]},work:{team:[{type:i.Types.ObjectId,ref:"User"}]},state:{type:String,enum:["OPEN","CLOSED","STARTED","ENDED"],default:"OPEN"}},{timestamps:!0});t.default=r.default.model("Project",u)},7034:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(8930)),i=o(n(7773));t.default=Object.assign(Object.assign({},i.default),r.default)},7773:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(8262),i=n(67),u=n(7247);t.default={Mutation:{createProject:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){const e=t.input.details.skillSet,o={details:Object.assign(Object.assign({},t.input.details),{skillSet:e.map((e=>e.skillId)),creator:n.req.session.userId})},r=yield u.Project.create(o);return i.mapProject(r,n)})),editProject:(e,t,n,s)=>o(void 0,void 0,void 0,(function*(){const e=yield u.Project.findById(t.input.projectId);if(!e)throw new r.ApolloError("Project not found.");if(e.details.creator.toString()!==n.req.session.userId.toString())throw new r.ApolloError("You cannot edit this project.");let o=e.details.skillSet;"skillSet"in t.input.details&&(o=t.input.details.skillSet.map((e=>e.skillId)));const s={details:"details"in t.input?Object.assign(Object.assign(Object.assign({},e.toObject().details),t.input.details),{skillSet:o}):e.toObject().details};return yield e.updateOne(s,((e,t)=>{if(e)throw new r.ApolloError(e)})),i.mapProject(Object.assign(e,s),n)})),toggleStarProject:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){const e=yield u.Project.findById(t.projectId),o=e.details.stars.includes(n.req.session.userId);return o?yield e.updateOne({$pull:{"details.stars":n.req.session.userId}}):yield e.updateOne({$push:{"details.stars":n.req.session.userId}}),!o}))}}},8930:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(3766),i=n(67),u=n(7247);t.default={Query:{projects:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){return(yield u.Project.find({})).map((e=>i.mapProject(e,n)))})),projectsByUserInterests:(e,t,n,s)=>o(void 0,void 0,void 0,(function*(){const e=(yield r.User.findById(t.userId)).personalInfo.interests;return console.log(e),(yield u.Project.find({"details.skillSet":{$in:e}})).map((e=>i.mapProject(e,n)))})),projectById:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){return i.mapProject(yield u.Project.findById(t.projectId),n)}))}}},1679:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	input StrictProjectDetailsInput {
-		title: String!
-		description: String!
-		startingOn: Date!
-		maxTeamMembers: Int!
-		duration: Int!
-		skillSet: [SkillIdInput!]
-	}
+/***/ "./src/config/mongo.config.ts":
+/*!************************************!*\
+  !*** ./src/config/mongo.config.ts ***!
+  \************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	input StrictProjectInput {
-		details: StrictProjectDetailsInput!
-	}
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar _a, _b, _c;\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dotenv = __importStar(__webpack_require__(/*! dotenv */ \"dotenv\"));\r\ndotenv.config();\r\nexports.default = {\r\n    mongoUserName: (_a = process.env.MONGO_USER) !== null && _a !== void 0 ? _a : \"\",\r\n    mongoUserPassword: (_b = process.env.MONGO_PASSWORD) !== null && _b !== void 0 ? _b : \"\",\r\n    mongoDatabaseName: (_c = process.env.MONGO_DATABASE) !== null && _c !== void 0 ? _c : \"\"\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/config/mongo.config.ts?");
 
-	input LooseProjectDetailsInput {
-		title: String
-		description: String
-		startingOn: Date
-		maxTeamMembers: Int
-		duration: Int
-		skillSet: [SkillIdInput!]
-	}
+/***/ }),
 
-	input LooseProjectInput {
-		projectId: ID!
-		details: LooseProjectDetailsInput
-	}
+/***/ "./src/config/node.config.ts":
+/*!***********************************!*\
+  !*** ./src/config/node.config.ts ***!
+  \***********************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	enum ProjectStateEnum {
-		OPEN
-		CLOSED
-		STARTED
-		ENDED
-	}
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar _a;\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dotenv = __importStar(__webpack_require__(/*! dotenv */ \"dotenv\"));\r\ndotenv.config();\r\nexports.default = {\r\n    nodeEnvironment: (_a = \"development\") !== null && _a !== void 0 ? _a : \"development\"\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/config/node.config.ts?");
 
-	type ProjectDetails {
-		title: String!
-		description: String!
-		startingOn: Date!
-		maxTeamMembers: Int!
-		duration: Int!
-		creator: User!
-		skillSet: [Skill!]
-		stars: [User!]
-		requests: [ProjectRequest!]
-	}
+/***/ }),
 
-	type ProjectWork {
-		team: [User!]
-	}
+/***/ "./src/config/session.config.ts":
+/*!**************************************!*\
+  !*** ./src/config/session.config.ts ***!
+  \**************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	type Project {
-		id: ID!
-		details: ProjectDetails!
-		state: ProjectStateEnum!
-		work: ProjectWork!
-		isStarred: Boolean!
-		isRequested: Boolean!
-		createdAt: Date!
-		updatedAt: Date!
-	}
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar _a, _b, _c;\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dotenv = __importStar(__webpack_require__(/*! dotenv */ \"dotenv\"));\r\ndotenv.config();\r\nexports.default = {\r\n    sessionName: (_a = process.env.SESSION_NAME) !== null && _a !== void 0 ? _a : \"\",\r\n    sessionLifetime: (_b = process.env.SESSION_LIFETIME) !== null && _b !== void 0 ? _b : \"1800000\",\r\n    sessionSecret: (_c = process.env.SESSION_SECRET) !== null && _c !== void 0 ? _c : \"secret\"\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/config/session.config.ts?");
 
-	extend type Query {
-		projects: [Project!]
-		projectsByUserInterests(userId: ID!): [Project!]
-		projectById(projectId: ID!): Project!
-	}
+/***/ }),
 
-	extend type Mutation {
-		createProject(input: StrictProjectInput!): Project! @auth
-		editProject(input: LooseProjectInput!): Project! @auth
-		toggleStarProject(projectId: ID!): Boolean! @auth
-	}
-`},3465:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8323),r=n(7129),i=n(4643),u=n(2103),s=n(7137),a=n(6199),d=n(5116);t.default=[o.UserResolvers,r.SkillResolvers,d.CustomScalarResolvers,i.MessageResolvers,u.ProjectResolvers,s.ProjectRequestResolvers,a.ConversationResolvers]},616:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.RootTypeDef=void 0;var r=n(5939);Object.defineProperty(t,"RootTypeDef",{enumerable:!0,get:function(){return o(r).default}})},5939:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	type Query {
-		_: String
-	}
+/***/ "./src/config/token.config.ts":
+/*!************************************!*\
+  !*** ./src/config/token.config.ts ***!
+  \************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	type Mutation {
-		_: String
-	}
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nvar _a, _b;\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dotenv = __importStar(__webpack_require__(/*! dotenv */ \"dotenv\"));\r\ndotenv.config();\r\nexports.default = {\r\n    tokenSecret: (_a = process.env.TOKEN_SECRET) !== null && _a !== void 0 ? _a : \"pokjnlakjdshq\",\r\n    tokenExpiry: (_b = process.env.TOKEN_EXPIRY) !== null && _b !== void 0 ? _b : (60 * 60 * 12).toString()\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/config/token.config.ts?");
 
-	type Subscription {
-		_: String
-	}
-`},7129:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.SkillTypeDef=t.SkillResolvers=void 0;var r=n(6259);Object.defineProperty(t,"SkillResolvers",{enumerable:!0,get:function(){return o(r).default}});var i=n(1037);Object.defineProperty(t,"SkillTypeDef",{enumerable:!0,get:function(){return o(i).default}})},5431:function(e,t){var n=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0}),t.mapSkillIds=t.mapSkill=void 0,t.mapSkill=e=>({id:e.id,name:e.name,color:e.color,description:e.description}),t.mapSkillIds=(e,o)=>()=>n(void 0,void 0,void 0,(function*(){return(yield o.dataloaders.skillLoader.loadMany(e)).map((e=>t.mapSkill(e)))}))},1001:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.Skill=void 0;var r=n(8645);Object.defineProperty(t,"Skill",{enumerable:!0,get:function(){return o(r).default}})},8645:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(5619)),i=new(0,r.default.Schema)({name:{type:String,required:!0},description:{type:String,required:!0},color:{type:String,required:!0}});t.default=r.default.model("Skill",i)},6259:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(8478)),i=o(n(85));t.default=Object.assign(Object.assign({},r.default),i.default)},85:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(1001);t.default={Mutation:{createSkill:(e,t,n,r)=>o.Skill.create(t.input)}}},8478:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(5431),i=n(1001);t.default={Query:{skills:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){return(yield i.Skill.find({})).map((e=>r.mapSkill(e)))}))}}},1037:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	input SkillIdInput {
-		skillId: ID!
-	}
+/***/ }),
 
-	input StrictSkillInput {
-		name: String!
-		description: String!
-		color: String!
-	}
+/***/ "./src/connectDb.ts":
+/*!**************************!*\
+  !*** ./src/connectDb.ts ***!
+  \**************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	input LooseSkillInput {
-		name: String
-		description: String
-		color: String
-	}
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\n//local\r\nconst config_1 = __webpack_require__(/*! ./config */ \"./src/config/index.ts\");\r\nfunction default_1() {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        let errorOccurred = false;\r\n        try {\r\n            yield mongoose_1.default.connect(`mongodb+srv://${config_1.MongoConfig.mongoUserName}:${config_1.MongoConfig.mongoUserPassword}@cluster0.vuqtk.mongodb.net/${config_1.MongoConfig.mongoDatabaseName}?retryWrites=true&w=majority`, {\r\n                useUnifiedTopology: true,\r\n                useNewUrlParser: true,\r\n                useFindAndModify: false\r\n            });\r\n        }\r\n        catch (err) {\r\n            errorOccurred = true;\r\n        }\r\n        finally {\r\n            if (errorOccurred)\r\n                console.log(\"[MONGOOSE] error connecting to MongoDB\");\r\n            else\r\n                console.log(\"[SERVER] connected to database\");\r\n        }\r\n    });\r\n}\r\nexports.default = default_1;\r\n\n\n//# sourceURL=webpack://backend/./src/connectDb.ts?");
 
-	extend type Query {
-		skills: [Skill!]
-	}
+/***/ }),
 
-	extend type Mutation {
-		createSkill(input: StrictSkillInput!): Skill! @auth
-	}
+/***/ "./src/dataloaders/conversation.ts":
+/*!*****************************************!*\
+  !*** ./src/dataloaders/conversation.ts ***!
+  \*****************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	type Skill {
-		id: ID!
-		name: String!
-		description: String!
-		color: String!
-	}
-`},5775:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(616),r=n(8323),i=n(6199),u=n(4643),s=n(7129),a=n(2103),d=n(7137),c=n(5116),l=n(3180);t.default=[c.CustomScalarTypeDef,l.DirectivesTypeDef,o.RootTypeDef,r.UserTypeDef,s.SkillTypeDef,u.MessageTypeDef,a.ProjectTypeDef,d.ProjectRequestTypeDef,i.ConversationTypeDef]},8323:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.UserTypeDef=t.UserResolvers=void 0;var r=n(6810);Object.defineProperty(t,"UserResolvers",{enumerable:!0,get:function(){return o(r).default}});var i=n(857);Object.defineProperty(t,"UserTypeDef",{enumerable:!0,get:function(){return o(i).default}})},6313:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0}),t.mapUserIds=t.mapUserId=t.mapUser=void 0;const r=n(5431);t.mapUser=(e,t)=>({id:e.id,accountInfo:Object.assign({},e.accountInfo),personalInfo:Object.assign(Object.assign({},e.personalInfo),{interests:r.mapSkillIds(e.personalInfo.interests,t)}),statusInfo:e.statusInfo}),t.mapUserId=(e,n)=>()=>o(void 0,void 0,void 0,(function*(){return t.mapUser(yield n.dataloaders.userLoader.load(e),n)})),t.mapUserIds=(e,n)=>()=>o(void 0,void 0,void 0,(function*(){return(yield n.dataloaders.userLoader.loadMany(e)).map((e=>t.mapUser(e,n)))}))},3766:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.User=void 0;var r=n(8036);Object.defineProperty(t,"User",{enumerable:!0,get:function(){return o(r).default}})},8036:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(5619)),u=n(6552),s=i.default.Schema,a=new s({accountInfo:{email:{type:String,required:!0},password:{type:String,required:!0},name:{type:String,required:!0},handler:{type:String,required:!0},verifiedEmail:{type:Boolean,default:!1}},personalInfo:{bio:{type:String,default:null},birthDate:{type:Date,default:null},interests:[{type:s.Types.ObjectId,ref:"Skill"}]},statusInfo:{isOnline:{type:Boolean,required:!0,default:!1},lastActive:{type:Date,default:null}},conversations:[{type:s.Types.ObjectId,ref:"Conversation"}]},{timestamps:!0,versionKey:"schemaVersion"});a.pre("save",(function(){return o(this,void 0,void 0,(function*(){this.isModified("accountInfo.password")&&(this.accountInfo.password=yield u.hash(this.accountInfo.password,12))}))})),a.methods.comparePassword=function(e){return u.compare(e,this.accountInfo.password)},a.path("accountInfo.handler").validate((function(e){return o(this,void 0,void 0,(function*(){const t=i.default.model("User");return null===(yield t.findOne({"accountInfo.handler":e}))}))}),"Handler `{VALUE}` already exist"),a.path("accountInfo.email").validate((function(e){return o(this,void 0,void 0,(function*(){const t=i.default.model("User");return null===(yield t.findOne({"accountInfo.email":e}))}))}),"Email `{VALUE}` already registered."),t.default=i.default.model("User",a)},6810:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(2888)),i=o(n(4843)),u=o(n(4746));t.default=Object.assign(Object.assign(Object.assign({},r.default),i.default),u.default)},4843:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=n(8262),u=r(n(9722)),s=n(3766),a=n(866),d=n(6313),c=n(8151),l=n(2275);t.default={Mutation:{createUser:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){const e=yield s.User.create(t.input),o=u.default.sign({userId:e.id,email:e.accountInfo.email},l.TokenConfig.tokenSecret,{expiresIn:parseInt(l.TokenConfig.tokenExpiry)});return c.sendVerificationEmail(e,o),d.mapUser(e,n)})),editUser:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){const e=yield s.User.findById(t.input.userId);if(!e)throw new i.ApolloError("User not found.");delete t.input.userId;const o={accountInfo:"accountInfo"in t.input?Object.assign(Object.assign({},e.toObject().accountInfo),t.input.accountInfo):e.toObject().accountInfo,personalInfo:"personalInfo"in t.input?Object.assign(Object.assign({},t.input.personalInfo),{interests:"interests"in t.input.personalInfo?t.input.personalInfo.interests.map((e=>e.skillId)):e.personalInfo.interests}):e.toObject().personalInfo};return yield e.updateOne(o,((e,t)=>{if(e)throw new i.ApolloError(e)})),d.mapUser(Object.assign(e,o),n)})),signIn:(e,{email:t,password:n},r,i)=>o(void 0,void 0,void 0,(function*(){return d.mapUser(yield a.attemptSignIn(t,n,r),r)})),signOut:(e,t,n,r)=>o(void 0,void 0,void 0,(function*(){return yield s.User.findByIdAndUpdate(n.req.session.userId,{"statusInfo.lastActive":(new Date).getTime()}),a.attemptSignOut(n)}))}}},2888:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0});const r=n(3766),i=n(6313);t.default={Query:{users:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){return(yield r.User.find({})).map((e=>i.mapUser(e,n)))})),me:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){return i.mapUser(yield r.User.findById(n.req.session.userId),n)})),user:(e,t,n,u)=>o(void 0,void 0,void 0,(function*(){return i.mapUser(yield r.User.findById(t.userId),n)}))}}},4746:(e,t)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.default={Subscription:{}}},857:(e,t,n)=>{Object.defineProperty(t,"__esModule",{value:!0});const o=n(8262);t.default=o.gql`
-	input StrictUserAccountInfoInput {
-		email: String!
-		password: String!
-		handler: String!
-		name: String!
-	}
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dataloader_1 = __importDefault(__webpack_require__(/*! dataloader */ \"dataloader\"));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst ramda_1 = __webpack_require__(/*! ramda */ \"ramda\");\r\nfunction batchConversations(ids) {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const Conversation = mongoose_1.default.model(\"Conversation\");\r\n        const conversations = yield Conversation.find({ _id: { $in: ids } });\r\n        const groupedConversations = ramda_1.groupBy(conversation => conversation.id, conversations);\r\n        return ramda_1.map(id => groupedConversations[id][0], ids);\r\n    });\r\n}\r\nexports.default = () => new dataloader_1.default(batchConversations);\r\n\n\n//# sourceURL=webpack://backend/./src/dataloaders/conversation.ts?");
 
-	input StrictUserInput {
-		accountInfo: StrictUserAccountInfoInput!
-	}
+/***/ }),
 
-	input LooseUserPersonalInfoInput {
-		bio: String
-		birthDate: Date
-		interests: [SkillIdInput!]
-	}
+/***/ "./src/dataloaders/index.ts":
+/*!**********************************!*\
+  !*** ./src/dataloaders/index.ts ***!
+  \**********************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	input LooseUserAccountInfoInput {
-		email: String
-		password: String
-		handler: String
-		name: String
-	}
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst user_1 = __importDefault(__webpack_require__(/*! ./user */ \"./src/dataloaders/user.ts\"));\r\nconst skill_1 = __importDefault(__webpack_require__(/*! ./skill */ \"./src/dataloaders/skill.ts\"));\r\nconst message_1 = __importDefault(__webpack_require__(/*! ./message */ \"./src/dataloaders/message.ts\"));\r\nconst conversation_1 = __importDefault(__webpack_require__(/*! ./conversation */ \"./src/dataloaders/conversation.ts\"));\r\nexports.default = {\r\n    userLoader: user_1.default(),\r\n    skillLoader: skill_1.default(),\r\n    messageLoader: message_1.default(),\r\n    conversationLoader: conversation_1.default()\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/dataloaders/index.ts?");
 
-	input LooseUserInput {
-		userId: ID!
-		accountInfo: LooseUserAccountInfoInput
-		personalInfo: LooseUserPersonalInfoInput
-	}
+/***/ }),
 
-	extend type Query {
-		users: [User!]
-		user(userId: ID!): User!
-		me: User! @auth
-	}
+/***/ "./src/dataloaders/message.ts":
+/*!************************************!*\
+  !*** ./src/dataloaders/message.ts ***!
+  \************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	extend type Mutation {
-		createUser(input: StrictUserInput!): User! @guest
-		editUser(input: LooseUserInput!): User! @auth
-		signIn(email: String!, password: String!): User! @guest
-		signOut: Boolean! @auth
-	}
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dataloader_1 = __importDefault(__webpack_require__(/*! dataloader */ \"dataloader\"));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst ramda_1 = __webpack_require__(/*! ramda */ \"ramda\");\r\nfunction batchMessages(ids) {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const Message = mongoose_1.default.model(\"Message\");\r\n        const messages = yield Message.find({ _id: { $in: ids } });\r\n        const groupedMessages = ramda_1.groupBy(message => message.id, messages);\r\n        return ramda_1.map(id => groupedMessages[id][0], ids);\r\n    });\r\n}\r\nexports.default = () => new dataloader_1.default(batchMessages);\r\n\n\n//# sourceURL=webpack://backend/./src/dataloaders/message.ts?");
 
-	type UserAccountInfo {
-		name: String!
-		email: String
-		password: String
-		handler: String!
-		verifiedEmail: Boolean!
-	}
+/***/ }),
 
-	type UserPersonalInfo {
-		bio: String
-		birthDate: Date
-		interests: [Skill!]
-	}
+/***/ "./src/dataloaders/skill.ts":
+/*!**********************************!*\
+  !*** ./src/dataloaders/skill.ts ***!
+  \**********************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-	type UserStatusInfo {
-		isOnline: Boolean!
-		lastActive: Date
-	}
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dataloader_1 = __importDefault(__webpack_require__(/*! dataloader */ \"dataloader\"));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst ramda_1 = __webpack_require__(/*! ramda */ \"ramda\");\r\nfunction batchSkills(ids) {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const Skill = mongoose_1.default.model(\"Skill\");\r\n        const skills = yield Skill.find({ _id: { $in: ids } });\r\n        const groupedSkills = ramda_1.groupBy(skill => skill.id, skills);\r\n        return ramda_1.map(id => groupedSkills[id][0], ids);\r\n    });\r\n}\r\nexports.default = () => new dataloader_1.default(batchSkills);\r\n\n\n//# sourceURL=webpack://backend/./src/dataloaders/skill.ts?");
 
-	type User {
-		id: ID!
-		accountInfo: UserAccountInfo!
-		personalInfo: UserPersonalInfo!
-		statusInfo: UserStatusInfo!
-		conversations: [Conversation!]
-	}
-`},5299:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(8123)),i=n(2275);t.default=r.default.createTransport({service:"gmail",sender:i.GmailConfig.gmailSender,auth:{user:i.GmailConfig.gmailUser,pass:i.GmailConfig.gmailPassword}})},866:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))};Object.defineProperty(t,"__esModule",{value:!0}),t.attemptSignOut=t.attemptSignIn=t.ensureSignedOut=t.ensureSignedIn=void 0;const r=n(8262),i=n(3766),u=n(2275);t.ensureSignedIn=e=>{if(!e.req.session.userId)throw new r.AuthenticationError("You must be signed in.")},t.ensureSignedOut=e=>{if(e.req.session.userId)throw new r.AuthenticationError("You must be signed out.")},t.attemptSignIn=(e,t,n)=>o(void 0,void 0,void 0,(function*(){const o=yield i.User.findOne({"accountInfo.email":e});if(!o)throw new r.AuthenticationError("Incorrect password or email. Please try again");if(!(yield o.comparePassword(t)))throw new r.AuthenticationError("Incorrect password or email. Please try again.");const u=yield i.User.findByIdAndUpdate(o.id,{isOnline:!0},((e,t)=>{if(e)throw new r.ApolloError(e)}));return n.req.session.userId=o.id,u})),t.attemptSignOut=e=>new Promise(((t,n)=>{i.User.updateOne({_id:e.req.session.userId},{isOnline:!1},((e,t)=>{e&&n(e)})),e.req.session.destroy((o=>{o&&n(o),e.res.clearCookie(u.SessionConfig.sessionName),t(!0)}))}))},8151:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0}),t.sendVerificationEmail=void 0;const r=o(n(5299));t.sendVerificationEmail=(e,t)=>(r.default.sendMail({from:'"Prashant Joshi (CEO)" <no-reply@collabs.com>',to:""+e.accountInfo.email,subject:"Please verify your email address",html:`\n\t\t<html>\n\t\t<head>\n\t\t\t<style>\n\t\t\t\t* {\n\t\t\t\t\tfont-family: "Proxima Nova";\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tdiv.main {\n\t\t\t\t\twidth: fit-content;\n\t\t\t\t\tmargin: 2rem auto;\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\tp {\n\t\t\t\t\tfont-size: 1rem;\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\ta {\n\t\t\t\t\tmargin: 1rem auto;\n\t\t\t\t\tdisplay: inline-block;\n\t\t\t\t\tpadding: 1rem;\n\t\t\t\t\ttext-decoration: none;\n\t\t\t\t\tborder-radius: 4pt;\n\t\t\t\t\tbackground-color: blue;\n\t\t\t\t\tfont-weight: bold;\n\t\t\t\t\tcolor: white;\n\t\t\t\t}\n\t\t\t\t\n\t\t\t\ta:hover {\n\t\t\t\t\tbackground-color: darkblue;\n\t\t\t\t\tcolor: white;\n\t\t\t\t}\n\n\t\t\t\tp.footer {\n\t\t\t\t\tfont-size: .8rem;\n\t\t\t\t\tcolor: grey;\n\t\t\t\t}\n\t\t\t</style>\n\t\t</head>\n\t\t<body>\n\t\t\t<div class="main">\n\t\t\t<h1>\n\t\t\t\tThank you for registering for Collabs.io\n\t\t\t</h1>\n\t\t\t<hr>\n\t\t\t<p>\n\t\t\t\tHey,<br>\n\t\t\t\tI am the CEO of <b>Collabs.io</b>, and you have a great journey ahead with us.<br>\n\t\t\t\tYou can confirm your email by cliking the button below.\n\t\t\t</p>\n\t\t\t<a href="http:localhost:4000/auth/verify-email/${t}">\n\t\t\t\tConfirm your email\n\t\t\t</a>\n\t\t\t<p class="footer">\n\t\t\t\tCollabs.io\n\t\t\t</p>\n\t\t</div>\n\t\t</body>\n\t</html>\t\n    `}),t)},3607:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(3396)),u=r(n(8988));o(void 0,void 0,void 0,(function*(){yield i.default(),yield u.default()}))},5630:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(2127)),i=o(n(6069)),u=r.default.Router();u.use("/verify-email",i.default),t.default=u},6069:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(2127)),i=o(n(6524)),u=r.default.Router();u.use("/:token",i.default),t.default=u},6524:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=r(n(9722)),u=n(2275),s=n(3766);t.default=function(e,t,n){return o(this,void 0,void 0,(function*(){const{token:o}=e.params;try{const e=yield i.default.verify(o,u.TokenConfig.tokenSecret);yield s.User.findByIdAndUpdate(e.userId,{"accountInfo.verifiedEmail":!0}),t.send(`<h1>Your email ${e.email} is verified</h1>`),n()}catch(e){t.send("<h1>Token is expired</h1>"),n()}}))}},8479:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(2127)),i=o(n(5630)),u=r.default.Router();u.use("/auth",i.default),u.get("/",((e,t,n)=>{t.status(200).json({message:"Connected!"}),n()})),t.default=u},3928:function(e,t,n){var o=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const r=o(n(5619)),i=o(n(8328)),u=o(n(5057)),s=n(2275),a=n(2275),d=i.default(u.default),c=r.default.createConnection(`mongodb+srv://${a.MongoConfig.mongoUserName}:${a.MongoConfig.mongoUserPassword}@cluster0.vuqtk.mongodb.net/${a.MongoConfig.mongoDatabaseName}?retryWrites=true&w=majority`,{useUnifiedTopology:!0,useNewUrlParser:!0});c.on("error",(function(e){console.log("[MONGOSTORE] Error connecting to MongoStore")}));const l=new d({mongooseConnection:c,collection:"sessions"});l.on("error",(function(e){console.log("[SERVER]  Error connecting to the mongodb store")}));const f=u.default({store:l,name:s.SessionConfig.sessionName,secret:s.SessionConfig.sessionSecret,rolling:!0,resave:!0,saveUninitialized:!1,cookie:{maxAge:parseInt(s.SessionConfig.sessionLifetime)}});t.default=f},8988:function(e,t,n){var o=this&&this.__awaiter||function(e,t,n,o){return new(n||(n=Promise))((function(r,i){function u(e){try{a(o.next(e))}catch(e){i(e)}}function s(e){try{a(o.throw(e))}catch(e){i(e)}}function a(e){var t;e.done?r(e.value):(t=e.value,t instanceof n?t:new n((function(e){e(t)}))).then(u,s)}a((o=o.apply(e,t||[])).next())}))},r=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(t,"__esModule",{value:!0});const i=n(8262),u=r(n(2127));console.log(process.env.PORT);const s=n(25),a=r(n(3180)),d=r(n(3928)),c=r(n(985)),l=r(n(8479));t.default=function(){return o(this,void 0,void 0,(function*(){const e=u.default();e.disable("x-powered-by"),e.use("/",l.default),e.use(d.default);const t=new i.ApolloServer({typeDefs:s.TypeDefs,resolvers:s.Resolvers,schemaDirectives:a.default,playground:{settings:{"request.credentials":"include"}},context:({req:e,res:t})=>o(this,void 0,void 0,(function*(){return{req:e,res:t,dataloaders:c.default}}))});t.applyMiddleware({app:e,cors:{credentials:!0,origin:"http://localhost:9000"}}),e.listen({port:process.env.PORT||4e3},(()=>{console.log("[SERVER] ready at http://localhost:4000"+t.graphqlPath)}))}))}},8262:e=>{e.exports=require("apollo-server-express")},6552:e=>{e.exports=require("bcrypt")},8328:e=>{e.exports=require("connect-mongo")},8712:e=>{e.exports=require("dataloader")},334:e=>{e.exports=require("dotenv")},2127:e=>{e.exports=require("express")},5057:e=>{e.exports=require("express-session")},9313:e=>{e.exports=require("graphql")},7772:e=>{e.exports=require("graphql/language")},9722:e=>{e.exports=require("jsonwebtoken")},5619:e=>{e.exports=require("mongoose")},8123:e=>{e.exports=require("nodemailer")},5439:e=>{e.exports=require("ramda")}},t={};!function n(o){if(t[o])return t[o].exports;var r=t[o]={exports:{}};return e[o].call(r.exports,r,r.exports,n),r.exports}(3607)})();
-//# sourceMappingURL=app.bundle.js.map
+/***/ }),
+
+/***/ "./src/dataloaders/user.ts":
+/*!*********************************!*\
+  !*** ./src/dataloaders/user.ts ***!
+  \*********************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst dataloader_1 = __importDefault(__webpack_require__(/*! dataloader */ \"dataloader\"));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst ramda_1 = __webpack_require__(/*! ramda */ \"ramda\");\r\nfunction batchUsers(ids) {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const User = mongoose_1.default.model(\"User\");\r\n        const users = yield User.find({ _id: { $in: ids } });\r\n        const groupedUsers = ramda_1.groupBy(user => user.id, users);\r\n        return ramda_1.map(id => groupedUsers[id][0], ids);\r\n    });\r\n}\r\nexports.default = () => new dataloader_1.default(batchUsers);\r\n\n\n//# sourceURL=webpack://backend/./src/dataloaders/user.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/conversation/index.ts":
+/*!********************************************!*\
+  !*** ./src/entities/conversation/index.ts ***!
+  \********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.ConversationResolvers = exports.ConversationTypeDef = void 0;\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/conversation/typedef/index.ts\");\r\nObject.defineProperty(exports, \"ConversationTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\nvar resolvers_1 = __webpack_require__(/*! ./resolvers */ \"./src/entities/conversation/resolvers/index.ts\");\r\nObject.defineProperty(exports, \"ConversationResolvers\", ({ enumerable: true, get: function () { return __importDefault(resolvers_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/conversation/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/conversation/mapper.ts":
+/*!*********************************************!*\
+  !*** ./src/entities/conversation/mapper.ts ***!
+  \*********************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export mapConversation [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export mapConversations [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.mapConversations = exports.mapConversation = void 0;\r\nconst mapper_1 = __webpack_require__(/*! ../message/mapper */ \"./src/entities/message/mapper.ts\");\r\nconst mapper_2 = __webpack_require__(/*! ../user/mapper */ \"./src/entities/user/mapper.ts\");\r\nexports.mapConversation = (conversation, context) => ({\r\n    id: conversation.id,\r\n    conversers: mapper_2.mapUserIds(conversation.conversers.map(id => id.toString()), context),\r\n    messages: mapper_1.mapMessageIds(conversation.messages.map(id => id.toString()), context),\r\n    createdAt: conversation.createdAt,\r\n    updatedAt: conversation.updatedAt\r\n});\r\nexports.mapConversations = (conversations, context) => conversations.map(conversation => exports.mapConversation(conversation, context));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/conversation/mapper.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/conversation/model/index.ts":
+/*!**************************************************!*\
+  !*** ./src/entities/conversation/model/index.ts ***!
+  \**************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Conversation = void 0;\r\nvar model_1 = __webpack_require__(/*! ./model */ \"./src/entities/conversation/model/model.ts\");\r\nObject.defineProperty(exports, \"Conversation\", ({ enumerable: true, get: function () { return __importDefault(model_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/conversation/model/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/conversation/model/model.ts":
+/*!**************************************************!*\
+  !*** ./src/entities/conversation/model/model.ts ***!
+  \**************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst Schema = mongoose_1.default.Schema;\r\nconst ConversationSchema = new Schema({\r\n    conversers: [\r\n        {\r\n            type: Schema.Types.ObjectId,\r\n            ref: \"User\"\r\n        }\r\n    ],\r\n    messages: [\r\n        {\r\n            type: Schema.Types.ObjectId,\r\n            ref: \"Message\"\r\n        }\r\n    ]\r\n}, { timestamps: true });\r\nexports.default = mongoose_1.default.model(\"Conversation\", ConversationSchema);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/conversation/model/model.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/conversation/resolvers/index.ts":
+/*!******************************************************!*\
+  !*** ./src/entities/conversation/resolvers/index.ts ***!
+  \******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst query_1 = __importDefault(__webpack_require__(/*! ./query */ \"./src/entities/conversation/resolvers/query.ts\"));\r\n// import MutationResolver from \"./mutation\";\r\n// import SubscriptionResolver from \"./subscription\";\r\nexports.default = Object.assign({}, query_1.default\r\n// ...MutationResolver\r\n// ...SubscriptionResolver\r\n);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/conversation/resolvers/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/conversation/resolvers/query.ts":
+/*!******************************************************!*\
+  !*** ./src/entities/conversation/resolvers/query.ts ***!
+  \******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/conversation/mapper.ts\");\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/conversation/model/index.ts\");\r\nexports.default = {\r\n    Query: {\r\n        conversationsByUser: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { }),\r\n        conversations: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            return (yield model_1.Conversation.find({})).map(conversation => mapper_1.mapConversation(conversation, context));\r\n        })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/conversation/resolvers/query.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/conversation/typedef/index.ts":
+/*!****************************************************!*\
+  !*** ./src/entities/conversation/typedef/index.ts ***!
+  \****************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\textend type Query {\r\n\t\tconversations: [Conversation!]\r\n\t\tconversationsByUser(converserId: ID!): [Conversation!]\r\n\t}\r\n\r\n\ttype Conversation {\r\n\t\tid: ID!\r\n\t\tconversers: [User!]\r\n\t\tmessages(cursor: ID, limit: Int = 50): [Message!]\r\n\t\tcreatedAt: Date!\r\n\t\tupdatedAt: Date!\r\n\t}\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/conversation/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customDirectives/definitions/auth.ts":
+/*!***********************************************************!*\
+  !*** ./src/entities/customDirectives/definitions/auth.ts ***!
+  \***********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nconst graphql_1 = __webpack_require__(/*! graphql */ \"graphql\");\r\nconst authentication_1 = __webpack_require__(/*! ../../../helpers/functions/authentication */ \"./src/helpers/functions/authentication.ts\");\r\nclass AuthDirective extends apollo_server_express_1.SchemaDirectiveVisitor {\r\n    visitFieldDefinition(field) {\r\n        const { resolve = graphql_1.defaultFieldResolver } = field;\r\n        field.resolve = function (...args) {\r\n            return __awaiter(this, void 0, void 0, function* () {\r\n                const [_, __, context] = args;\r\n                authentication_1.ensureSignedIn(context);\r\n                return resolve.apply(this, args);\r\n            });\r\n        };\r\n    }\r\n}\r\nexports.default = AuthDirective;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customDirectives/definitions/auth.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customDirectives/definitions/guest.ts":
+/*!************************************************************!*\
+  !*** ./src/entities/customDirectives/definitions/guest.ts ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nconst graphql_1 = __webpack_require__(/*! graphql */ \"graphql\");\r\nconst authentication_1 = __webpack_require__(/*! ../../../helpers/functions/authentication */ \"./src/helpers/functions/authentication.ts\");\r\nclass GuestDirective extends apollo_server_express_1.SchemaDirectiveVisitor {\r\n    visitFieldDefinition(field) {\r\n        const { resolve = graphql_1.defaultFieldResolver } = field;\r\n        field.resolve = function (...args) {\r\n            return __awaiter(this, void 0, void 0, function* () {\r\n                const [_, __, context] = args;\r\n                authentication_1.ensureSignedOut(context);\r\n                return resolve.apply(this, args);\r\n            });\r\n        };\r\n    }\r\n}\r\nexports.default = GuestDirective;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customDirectives/definitions/guest.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customDirectives/definitions/index.ts":
+/*!************************************************************!*\
+  !*** ./src/entities/customDirectives/definitions/index.ts ***!
+  \************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.PrivateDirective = exports.GuestDirective = exports.AuthDirective = void 0;\r\nvar auth_1 = __webpack_require__(/*! ./auth */ \"./src/entities/customDirectives/definitions/auth.ts\");\r\nObject.defineProperty(exports, \"AuthDirective\", ({ enumerable: true, get: function () { return __importDefault(auth_1).default; } }));\r\nvar guest_1 = __webpack_require__(/*! ./guest */ \"./src/entities/customDirectives/definitions/guest.ts\");\r\nObject.defineProperty(exports, \"GuestDirective\", ({ enumerable: true, get: function () { return __importDefault(guest_1).default; } }));\r\nvar private_1 = __webpack_require__(/*! ./private */ \"./src/entities/customDirectives/definitions/private.ts\");\r\nObject.defineProperty(exports, \"PrivateDirective\", ({ enumerable: true, get: function () { return __importDefault(private_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customDirectives/definitions/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customDirectives/definitions/private.ts":
+/*!**************************************************************!*\
+  !*** ./src/entities/customDirectives/definitions/private.ts ***!
+  \**************************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nconst graphql_1 = __webpack_require__(/*! graphql */ \"graphql\");\r\nclass PrivateDirective extends apollo_server_express_1.SchemaDirectiveVisitor {\r\n    visitFieldDefinition(field) {\r\n        const { resolve = graphql_1.defaultFieldResolver } = field;\r\n        field.resolve = function (...arg) {\r\n            return __awaiter(this, void 0, void 0, function* () {\r\n                const [parent, args, context, info] = arg;\r\n                if (parent.id !== context.req.session.userId ||\r\n                    !(\"userId\" in context.req.session))\r\n                    parent[field.name] = null;\r\n                return resolve.apply(this, [parent, args, context, info]);\r\n            });\r\n        };\r\n    }\r\n}\r\nexports.default = PrivateDirective;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customDirectives/definitions/private.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customDirectives/index.ts":
+/*!************************************************!*\
+  !*** ./src/entities/customDirectives/index.ts ***!
+  \************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.DirectivesTypeDef = void 0;\r\nconst definitions_1 = __webpack_require__(/*! ./definitions */ \"./src/entities/customDirectives/definitions/index.ts\");\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/customDirectives/typedef/index.ts\");\r\nObject.defineProperty(exports, \"DirectivesTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\nexports.default = {\r\n    auth: definitions_1.AuthDirective,\r\n    guest: definitions_1.GuestDirective,\r\n    private: definitions_1.PrivateDirective\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customDirectives/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customDirectives/typedef/index.ts":
+/*!********************************************************!*\
+  !*** ./src/entities/customDirectives/typedef/index.ts ***!
+  \********************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\tdirective @guest on FIELD_DEFINITION\r\n\tdirective @auth on FIELD_DEFINITION\r\n\tdirective @private on FIELD_DEFINITION\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customDirectives/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customScalars/index.ts":
+/*!*********************************************!*\
+  !*** ./src/entities/customScalars/index.ts ***!
+  \*********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.CustomScalarResolvers = exports.CustomScalarTypeDef = void 0;\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/customScalars/typedef/index.ts\");\r\nObject.defineProperty(exports, \"CustomScalarTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\nvar resolvers_1 = __webpack_require__(/*! ./resolvers */ \"./src/entities/customScalars/resolvers/index.ts\");\r\nObject.defineProperty(exports, \"CustomScalarResolvers\", ({ enumerable: true, get: function () { return __importDefault(resolvers_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customScalars/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customScalars/resolvers/Date.ts":
+/*!******************************************************!*\
+  !*** ./src/entities/customScalars/resolvers/Date.ts ***!
+  \******************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst graphql_1 = __webpack_require__(/*! graphql */ \"graphql\");\r\nconst language_1 = __webpack_require__(/*! graphql/language */ \"graphql/language\");\r\nexports.default = {\r\n    Date: new graphql_1.GraphQLScalarType({\r\n        name: \"Date\",\r\n        description: \"Date custom scalar type\",\r\n        parseValue(value) {\r\n            return new Date(value); // value from the client\r\n        },\r\n        serialize(value) {\r\n            return value.getTime(); // value sent to the client\r\n        },\r\n        parseLiteral(ast) {\r\n            if (ast.kind === language_1.Kind.INT) {\r\n                return parseInt(ast.value, 10); // ast value is always in string format\r\n            }\r\n            return null;\r\n        }\r\n    })\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customScalars/resolvers/Date.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customScalars/resolvers/index.ts":
+/*!*******************************************************!*\
+  !*** ./src/entities/customScalars/resolvers/index.ts ***!
+  \*******************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst Date_1 = __importDefault(__webpack_require__(/*! ./Date */ \"./src/entities/customScalars/resolvers/Date.ts\"));\r\nexports.default = Object.assign({}, Date_1.default);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customScalars/resolvers/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/customScalars/typedef/index.ts":
+/*!*****************************************************!*\
+  !*** ./src/entities/customScalars/typedef/index.ts ***!
+  \*****************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\tscalar Date\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/customScalars/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/index.ts":
+/*!*******************************!*\
+  !*** ./src/entities/index.ts ***!
+  \*******************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Resolvers = exports.TypeDefs = void 0;\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/typedef.ts\");\r\nObject.defineProperty(exports, \"TypeDefs\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\nvar resolvers_1 = __webpack_require__(/*! ./resolvers */ \"./src/entities/resolvers.ts\");\r\nObject.defineProperty(exports, \"Resolvers\", ({ enumerable: true, get: function () { return __importDefault(resolvers_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/index.ts":
+/*!***************************************!*\
+  !*** ./src/entities/message/index.ts ***!
+  \***************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.MessageResolvers = exports.MessageTypeDef = void 0;\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/message/typedef/index.ts\");\r\nObject.defineProperty(exports, \"MessageTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\nvar resolver_1 = __webpack_require__(/*! ./resolver */ \"./src/entities/message/resolver/index.ts\");\r\nObject.defineProperty(exports, \"MessageResolvers\", ({ enumerable: true, get: function () { return __importDefault(resolver_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/mapper.ts":
+/*!****************************************!*\
+  !*** ./src/entities/message/mapper.ts ***!
+  \****************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.mapMessageIds = exports.mapMessage = void 0;\r\nconst mapper_1 = __webpack_require__(/*! ../user/mapper */ \"./src/entities/user/mapper.ts\");\r\nexports.mapMessage = (message, context) => ({\r\n    id: message.id,\r\n    body: message.body,\r\n    read: message.read,\r\n    createdAt: message.createdAt,\r\n    updatedAt: message.updatedAt,\r\n    sender: mapper_1.mapUserId(message.sender.toString(), context),\r\n    receiver: mapper_1.mapUserId(message.receiver.toString(), context)\r\n});\r\nexports.mapMessageIds = (ids, context) => () => __awaiter(void 0, void 0, void 0, function* () {\r\n    return (yield context.dataloaders.messageLoader.loadMany(ids)).map(message => exports.mapMessage(message, context));\r\n});\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/mapper.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/model/index.ts":
+/*!*********************************************!*\
+  !*** ./src/entities/message/model/index.ts ***!
+  \*********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Message = void 0;\r\nvar model_1 = __webpack_require__(/*! ./model */ \"./src/entities/message/model/model.ts\");\r\nObject.defineProperty(exports, \"Message\", ({ enumerable: true, get: function () { return __importDefault(model_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/model/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/model/model.ts":
+/*!*********************************************!*\
+  !*** ./src/entities/message/model/model.ts ***!
+  \*********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst Schema = mongoose_1.default.Schema;\r\nconst MessageSchema = new Schema({\r\n    sender: { type: Schema.Types.ObjectId, ref: \"User\" },\r\n    receiver: { type: Schema.Types.ObjectId, ref: \"User\" },\r\n    body: { type: String, required: true },\r\n    read: { type: Boolean, required: true, default: false }\r\n}, { timestamps: true });\r\nexports.default = mongoose_1.default.model(\"Message\", MessageSchema);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/model/model.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/resolver/index.ts":
+/*!************************************************!*\
+  !*** ./src/entities/message/resolver/index.ts ***!
+  \************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst query_1 = __importDefault(__webpack_require__(/*! ./query */ \"./src/entities/message/resolver/query.ts\"));\r\nconst mutation_1 = __importDefault(__webpack_require__(/*! ./mutation */ \"./src/entities/message/resolver/mutation.ts\"));\r\n// import SubscriptionResolver from \"./subscription\";\r\nexports.default = Object.assign(Object.assign({}, query_1.default), mutation_1.default\r\n// ...SubscriptionResolver\r\n);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/resolver/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/resolver/mutation.ts":
+/*!***************************************************!*\
+  !*** ./src/entities/message/resolver/mutation.ts ***!
+  \***************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst model_1 = __webpack_require__(/*! ../../conversation/model */ \"./src/entities/conversation/model/index.ts\");\r\nconst model_2 = __webpack_require__(/*! ../../user/model */ \"./src/entities/user/model/index.ts\");\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/message/mapper.ts\");\r\nconst model_3 = __webpack_require__(/*! ../model */ \"./src/entities/message/model/index.ts\");\r\nexports.default = {\r\n    Mutation: {\r\n        createMessage: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const message = yield model_3.Message.create({\r\n                sender: args.input.senderId,\r\n                receiver: args.input.receiverId,\r\n                body: args.input.body\r\n            });\r\n            const conversation = yield model_1.Conversation.findOne({\r\n                conversers: { $all: [args.input.senderId, args.input.receiverId] }\r\n            });\r\n            if (!conversation) {\r\n                const conversation = yield model_1.Conversation.create({\r\n                    conversers: [args.input.senderId, args.input.receiverId]\r\n                });\r\n                yield conversation.updateOne({\r\n                    messages: [message.id]\r\n                });\r\n                yield model_2.User.findByIdAndUpdate(args.input.senderId, {\r\n                    $push: { conversations: conversation.id }\r\n                });\r\n                yield model_2.User.findByIdAndUpdate(args.input.receiverId, {\r\n                    $push: { conversations: conversation.id }\r\n                });\r\n                return mapper_1.mapMessage(message, context);\r\n            }\r\n            yield conversation.updateOne({\r\n                $push: {\r\n                    messages: {\r\n                        $each: [message.id],\r\n                        $position: 0\r\n                    }\r\n                }\r\n            });\r\n            return mapper_1.mapMessage(message, context);\r\n        }),\r\n        editMessage: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const message = yield model_3.Message.findByIdAndUpdate(args.messageId, { body: args.body }, { new: true });\r\n            return mapper_1.mapMessage(message, context);\r\n        }),\r\n        removeMessage: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const result = yield model_3.Message.findByIdAndDelete(args.messageId);\r\n            if (result)\r\n                return true;\r\n            return false;\r\n        })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/resolver/mutation.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/resolver/query.ts":
+/*!************************************************!*\
+  !*** ./src/entities/message/resolver/query.ts ***!
+  \************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/message/mapper.ts\");\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/message/model/index.ts\");\r\nexports.default = {\r\n    Query: {\r\n        messages: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { return (yield model_1.Message.find({})).map(message => mapper_1.mapMessage(message, context)); })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/resolver/query.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/message/typedef/index.ts":
+/*!***********************************************!*\
+  !*** ./src/entities/message/typedef/index.ts ***!
+  \***********************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\tinput StrictMessageInput {\r\n\t\tsenderId: ID!\r\n\t\treceiverId: ID!\r\n\t\tbody: String!\r\n\t}\r\n\r\n\textend type Query {\r\n\t\tmessages: [Message!]\r\n\t}\r\n\r\n\textend type Mutation {\r\n\t\tcreateMessage(input: StrictMessageInput!): Message!\r\n\t\tremoveMessage(messageId: ID!): Boolean!\r\n\t\teditMessage(body: String!, messageId: ID!): Message!\r\n\t}\r\n\r\n\ttype Message {\r\n\t\tid: ID!\r\n\t\tsender: User!\r\n\t\treceiver: User!\r\n\t\tbody: String!\r\n\t\tread: Boolean!\r\n\t\tcreatedAt: Date!\r\n\t\tupdatedAt: Date!\r\n\t}\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/message/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/index.ts":
+/*!**********************************************!*\
+  !*** ./src/entities/projectRequest/index.ts ***!
+  \**********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.ProjectRequestTypeDef = exports.ProjectRequestResolvers = void 0;\r\nvar resolvers_1 = __webpack_require__(/*! ./resolvers */ \"./src/entities/projectRequest/resolvers/index.ts\");\r\nObject.defineProperty(exports, \"ProjectRequestResolvers\", ({ enumerable: true, get: function () { return __importDefault(resolvers_1).default; } }));\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/projectRequest/typedef/index.ts\");\r\nObject.defineProperty(exports, \"ProjectRequestTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/mapper.ts":
+/*!***********************************************!*\
+  !*** ./src/entities/projectRequest/mapper.ts ***!
+  \***********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.mapProjectRequest = void 0;\r\nconst model_1 = __webpack_require__(/*! ../project/model */ \"./src/entities/project/model/index.ts\");\r\nconst mapper_1 = __webpack_require__(/*! ../user/mapper */ \"./src/entities/user/mapper.ts\");\r\nexports.mapProjectRequest = (projectRequest, context) => ({\r\n    id: projectRequest.id,\r\n    from: mapper_1.mapUserId(projectRequest.from, context),\r\n    to: () => __awaiter(void 0, void 0, void 0, function* () { return model_1.Project.findById(projectRequest.to); }),\r\n    message: projectRequest.message,\r\n    status: projectRequest.status,\r\n    createdAt: projectRequest.createdAt,\r\n    updatedAt: projectRequest.updatedAt\r\n});\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/mapper.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/model/index.ts":
+/*!****************************************************!*\
+  !*** ./src/entities/projectRequest/model/index.ts ***!
+  \****************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.ProjectRequest = void 0;\r\nvar model_1 = __webpack_require__(/*! ./model */ \"./src/entities/projectRequest/model/model.ts\");\r\nObject.defineProperty(exports, \"ProjectRequest\", ({ enumerable: true, get: function () { return __importDefault(model_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/model/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/model/model.ts":
+/*!****************************************************!*\
+  !*** ./src/entities/projectRequest/model/model.ts ***!
+  \****************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst Schema = mongoose_1.default.Schema;\r\nconst ProjectRequestSchema = new Schema({\r\n    from: { type: Schema.Types.ObjectId, ref: \"User\" },\r\n    to: { type: Schema.Types.ObjectId, ref: \"Project\" },\r\n    message: String,\r\n    status: {\r\n        type: String,\r\n        enum: [\"PENDING\", \"ACCEPTED\", \"DENIED\"],\r\n        required: true,\r\n        default: \"PENDING\"\r\n    }\r\n}, { timestamps: true });\r\nexports.default = mongoose_1.default.model(\"ProjectRequest\", ProjectRequestSchema);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/model/model.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/model/types.ts":
+/*!****************************************************!*\
+  !*** ./src/entities/projectRequest/model/types.ts ***!
+  \****************************************************/
+/*! flagged exports */
+/*! export ProjectRequestStatusEnum [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__ */
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.ProjectRequestStatusEnum = void 0;\r\nvar ProjectRequestStatusEnum;\r\n(function (ProjectRequestStatusEnum) {\r\n    ProjectRequestStatusEnum[\"PENDING\"] = \"PENDING\";\r\n    ProjectRequestStatusEnum[\"ACCEPTED\"] = \"ACCEPTED\";\r\n    ProjectRequestStatusEnum[\"DENIED\"] = \"DENIED\";\r\n})(ProjectRequestStatusEnum = exports.ProjectRequestStatusEnum || (exports.ProjectRequestStatusEnum = {}));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/model/types.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/resolvers/index.ts":
+/*!********************************************************!*\
+  !*** ./src/entities/projectRequest/resolvers/index.ts ***!
+  \********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst query_1 = __importDefault(__webpack_require__(/*! ./query */ \"./src/entities/projectRequest/resolvers/query.ts\"));\r\nconst mutation_1 = __importDefault(__webpack_require__(/*! ./mutation */ \"./src/entities/projectRequest/resolvers/mutation.ts\"));\r\n// import SubscriptionResolver from \"./subscription\";\r\nexports.default = Object.assign(Object.assign({}, mutation_1.default), query_1.default);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/resolvers/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/resolvers/mutation.ts":
+/*!***********************************************************!*\
+  !*** ./src/entities/projectRequest/resolvers/mutation.ts ***!
+  \***********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\n//local\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nconst model_1 = __webpack_require__(/*! ../../project/model */ \"./src/entities/project/model/index.ts\");\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/projectRequest/mapper.ts\");\r\nconst model_2 = __webpack_require__(/*! ../model */ \"./src/entities/projectRequest/model/index.ts\");\r\nconst types_1 = __webpack_require__(/*! ../model/types */ \"./src/entities/projectRequest/model/types.ts\");\r\nexports.default = {\r\n    Mutation: {\r\n        toggleRequestProject: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const oldRequest = yield model_2.ProjectRequest.findOne({\r\n                from: context.req.session.userId,\r\n                to: args.projectId\r\n            });\r\n            if (oldRequest) {\r\n                yield oldRequest.deleteOne((err, raw) => {\r\n                    if (err)\r\n                        throw new apollo_server_express_1.ApolloError(err);\r\n                });\r\n                return false;\r\n            }\r\n            const project = yield model_1.Project.findById(args.projectId);\r\n            if (project.details.creator.toString() ===\r\n                context.req.session.userId.toString())\r\n                throw new apollo_server_express_1.ApolloError(\"You cannot request your own project.\");\r\n            yield model_2.ProjectRequest.create({\r\n                from: context.req.session.userId,\r\n                to: args.projectId,\r\n                status: types_1.ProjectRequestStatusEnum.PENDING,\r\n                message: args.message.length === 0 ? null : args.message\r\n            });\r\n            return true;\r\n        }),\r\n        acceptProjectRequest: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const projectRequest = yield model_2.ProjectRequest.findById(args.projectRequestId);\r\n            const project = yield model_1.Project.findById(projectRequest.to);\r\n            if (project.details.creator.toString() !==\r\n                context.req.session.userId.toString())\r\n                throw new apollo_server_express_1.AuthenticationError(\"Your are not allowed to accept this request.\");\r\n            if (projectRequest.status === types_1.ProjectRequestStatusEnum.ACCEPTED)\r\n                throw new apollo_server_express_1.ApolloError(\"Request is already accepted.\");\r\n            const result = yield model_2.ProjectRequest.findByIdAndUpdate(projectRequest.id, {\r\n                status: types_1.ProjectRequestStatusEnum.ACCEPTED\r\n            }, { new: true });\r\n            yield project.updateOne({ $push: { \"work.team\": result.from } });\r\n            return mapper_1.mapProjectRequest(result, context);\r\n        })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/resolvers/mutation.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/resolvers/query.ts":
+/*!********************************************************!*\
+  !*** ./src/entities/projectRequest/resolvers/query.ts ***!
+  \********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/projectRequest/mapper.ts\");\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/projectRequest/model/index.ts\");\r\nexports.default = {\r\n    Query: {\r\n        projectRequests: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            return (yield model_1.ProjectRequest.find({})).map(projectRequest => mapper_1.mapProjectRequest(projectRequest, context));\r\n        })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/resolvers/query.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/projectRequest/typedef/index.ts":
+/*!******************************************************!*\
+  !*** ./src/entities/projectRequest/typedef/index.ts ***!
+  \******************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\tenum RequestStatusEnum {\r\n\t\tPENDING\r\n\t\tACCEPTED\r\n\t\tDENIED\r\n\t}\r\n\r\n\ttype ProjectRequest {\r\n\t\tid: ID!\r\n\t\tfrom: User!\r\n\t\tto: Project!\r\n\t\tmessage: String\r\n\t\tstatus: RequestStatusEnum!\r\n\t\tcreatedAt: Date!\r\n\t\tupdatedAt: Date!\r\n\t}\r\n\r\n\textend type Query {\r\n\t\tprojectRequests: [ProjectRequest!]\r\n\t}\r\n\r\n\textend type Mutation {\r\n\t\ttoggleRequestProject(message: String!, projectId: ID!): Boolean! @auth\r\n\t\tacceptProjectRequest(projectRequestId: ID!): ProjectRequest! @auth\r\n\t}\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/projectRequest/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/index.ts":
+/*!***************************************!*\
+  !*** ./src/entities/project/index.ts ***!
+  \***************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.ProjectTypeDef = exports.ProjectResolvers = void 0;\r\nvar resolvers_1 = __webpack_require__(/*! ./resolvers */ \"./src/entities/project/resolvers/index.ts\");\r\nObject.defineProperty(exports, \"ProjectResolvers\", ({ enumerable: true, get: function () { return __importDefault(resolvers_1).default; } }));\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/project/typedef/index.ts\");\r\nObject.defineProperty(exports, \"ProjectTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/mapper.ts":
+/*!****************************************!*\
+  !*** ./src/entities/project/mapper.ts ***!
+  \****************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.mapProject = void 0;\r\nconst mapper_1 = __webpack_require__(/*! ../projectRequest/mapper */ \"./src/entities/projectRequest/mapper.ts\");\r\nconst model_1 = __webpack_require__(/*! ../projectRequest/model */ \"./src/entities/projectRequest/model/index.ts\");\r\nconst mapper_2 = __webpack_require__(/*! ../skill/mapper */ \"./src/entities/skill/mapper.ts\");\r\nconst mapper_3 = __webpack_require__(/*! ../user/mapper */ \"./src/entities/user/mapper.ts\");\r\nexports.mapProject = (project, context) => ({\r\n    id: project.id,\r\n    details: Object.assign(Object.assign({}, project.details), { skillSet: mapper_2.mapSkillIds(project.details.skillSet, context), creator: mapper_3.mapUserId(project.details.creator, context), stars: mapper_3.mapUserIds(project.details.stars, context), requests: () => __awaiter(void 0, void 0, void 0, function* () {\r\n            return (yield model_1.ProjectRequest.find({ to: project.id })).map(request => mapper_1.mapProjectRequest(request, context));\r\n        }) }),\r\n    isStarred: project.details.stars.includes(context.req.session.userId),\r\n    isRequested: () => __awaiter(void 0, void 0, void 0, function* () {\r\n        return (yield model_1.ProjectRequest.findOne({\r\n            from: context.req.session.userId,\r\n            to: project.id\r\n        })) !== null;\r\n    }),\r\n    state: project.state,\r\n    work: {\r\n        team: mapper_3.mapUserIds(project.work.team, context)\r\n    },\r\n    createdAt: project.createdAt,\r\n    updatedAt: project.updatedAt\r\n});\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/mapper.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/model/index.ts":
+/*!*********************************************!*\
+  !*** ./src/entities/project/model/index.ts ***!
+  \*********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Project = void 0;\r\nvar model_1 = __webpack_require__(/*! ./model */ \"./src/entities/project/model/model.ts\");\r\nObject.defineProperty(exports, \"Project\", ({ enumerable: true, get: function () { return __importDefault(model_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/model/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/model/model.ts":
+/*!*********************************************!*\
+  !*** ./src/entities/project/model/model.ts ***!
+  \*********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst Schema = mongoose_1.default.Schema;\r\nconst ProjectSchema = new Schema({\r\n    details: {\r\n        title: { type: String, required: true },\r\n        description: { type: String, required: true },\r\n        startingOn: { type: Date, required: true },\r\n        duration: { type: Number, required: true },\r\n        maxTeamMembers: { type: Number, required: true },\r\n        creator: { type: Schema.Types.ObjectId, ref: \"User\" },\r\n        skillSet: [{ type: Schema.Types.ObjectId, ref: \"Skill\" }],\r\n        stars: [{ type: Schema.Types.ObjectId, ref: \"User\" }]\r\n    },\r\n    work: {\r\n        team: [{ type: Schema.Types.ObjectId, ref: \"User\" }]\r\n    },\r\n    state: {\r\n        type: String,\r\n        enum: [\"OPEN\", \"CLOSED\", \"STARTED\", \"ENDED\"],\r\n        default: \"OPEN\"\r\n    }\r\n}, { timestamps: true });\r\nexports.default = mongoose_1.default.model(\"Project\", ProjectSchema);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/model/model.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/resolvers/index.ts":
+/*!*************************************************!*\
+  !*** ./src/entities/project/resolvers/index.ts ***!
+  \*************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst query_1 = __importDefault(__webpack_require__(/*! ./query */ \"./src/entities/project/resolvers/query.ts\"));\r\nconst mutation_1 = __importDefault(__webpack_require__(/*! ./mutation */ \"./src/entities/project/resolvers/mutation.ts\"));\r\n// import SubscriptionResolver from \"./subscription\";\r\nexports.default = Object.assign(Object.assign({}, mutation_1.default), query_1.default);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/resolvers/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/resolvers/mutation.ts":
+/*!****************************************************!*\
+  !*** ./src/entities/project/resolvers/mutation.ts ***!
+  \****************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/project/mapper.ts\");\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/project/model/index.ts\");\r\nexports.default = {\r\n    Mutation: {\r\n        createProject: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const skillSet = args.input.details.skillSet;\r\n            const input = {\r\n                details: Object.assign(Object.assign({}, args.input.details), { skillSet: skillSet.map(obj => obj.skillId), creator: context.req.session.userId })\r\n            };\r\n            const project = yield model_1.Project.create(input);\r\n            return mapper_1.mapProject(project, context);\r\n        }),\r\n        editProject: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const project = yield model_1.Project.findById(args.input.projectId);\r\n            if (!project)\r\n                throw new apollo_server_express_1.ApolloError(\"Project not found.\");\r\n            if (project.details.creator.toString() !==\r\n                context.req.session.userId.toString())\r\n                throw new apollo_server_express_1.ApolloError(\"You cannot edit this project.\");\r\n            let skillSet = project.details.skillSet;\r\n            if (\"skillSet\" in args.input.details) {\r\n                const set = args.input.details.skillSet;\r\n                skillSet = set.map(obj => obj.skillId);\r\n            }\r\n            const doc = {\r\n                details: \"details\" in args.input\r\n                    ? Object.assign(Object.assign(Object.assign({}, project.toObject().details), args.input.details), { skillSet }) : project.toObject().details\r\n            };\r\n            yield project.updateOne(doc, (err, raw) => {\r\n                if (err)\r\n                    throw new apollo_server_express_1.ApolloError(err);\r\n            });\r\n            return mapper_1.mapProject(Object.assign(project, doc), context);\r\n        }),\r\n        toggleStarProject: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const project = yield model_1.Project.findById(args.projectId);\r\n            const isStarred = project.details.stars.includes(context.req.session.userId);\r\n            if (isStarred)\r\n                yield project.updateOne({\r\n                    $pull: { \"details.stars\": context.req.session.userId }\r\n                });\r\n            else\r\n                yield project.updateOne({\r\n                    $push: { \"details.stars\": context.req.session.userId }\r\n                });\r\n            return !isStarred;\r\n        })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/resolvers/mutation.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/resolvers/query.ts":
+/*!*************************************************!*\
+  !*** ./src/entities/project/resolvers/query.ts ***!
+  \*************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst model_1 = __webpack_require__(/*! ../../user/model */ \"./src/entities/user/model/index.ts\");\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/project/mapper.ts\");\r\nconst model_2 = __webpack_require__(/*! ../model */ \"./src/entities/project/model/index.ts\");\r\nexports.default = {\r\n    Query: {\r\n        projects: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { return (yield model_2.Project.find({})).map(project => mapper_1.mapProject(project, context)); }),\r\n        projectsByUserInterests: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const user = yield model_1.User.findById(args.userId);\r\n            const skillIds = user.personalInfo.interests;\r\n            console.log(skillIds);\r\n            return (yield model_2.Project.find({ \"details.skillSet\": { $in: skillIds } })).map(project => mapper_1.mapProject(project, context));\r\n        }),\r\n        projectById: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { return mapper_1.mapProject(yield model_2.Project.findById(args.projectId), context); })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/resolvers/query.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/project/typedef/index.ts":
+/*!***********************************************!*\
+  !*** ./src/entities/project/typedef/index.ts ***!
+  \***********************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\tinput StrictProjectDetailsInput {\r\n\t\ttitle: String!\r\n\t\tdescription: String!\r\n\t\tstartingOn: Date!\r\n\t\tmaxTeamMembers: Int!\r\n\t\tduration: Int!\r\n\t\tskillSet: [SkillIdInput!]\r\n\t}\r\n\r\n\tinput StrictProjectInput {\r\n\t\tdetails: StrictProjectDetailsInput!\r\n\t}\r\n\r\n\tinput LooseProjectDetailsInput {\r\n\t\ttitle: String\r\n\t\tdescription: String\r\n\t\tstartingOn: Date\r\n\t\tmaxTeamMembers: Int\r\n\t\tduration: Int\r\n\t\tskillSet: [SkillIdInput!]\r\n\t}\r\n\r\n\tinput LooseProjectInput {\r\n\t\tprojectId: ID!\r\n\t\tdetails: LooseProjectDetailsInput\r\n\t}\r\n\r\n\tenum ProjectStateEnum {\r\n\t\tOPEN\r\n\t\tCLOSED\r\n\t\tSTARTED\r\n\t\tENDED\r\n\t}\r\n\r\n\ttype ProjectDetails {\r\n\t\ttitle: String!\r\n\t\tdescription: String!\r\n\t\tstartingOn: Date!\r\n\t\tmaxTeamMembers: Int!\r\n\t\tduration: Int!\r\n\t\tcreator: User!\r\n\t\tskillSet: [Skill!]\r\n\t\tstars: [User!]\r\n\t\trequests: [ProjectRequest!]\r\n\t}\r\n\r\n\ttype ProjectWork {\r\n\t\tteam: [User!]\r\n\t}\r\n\r\n\ttype Project {\r\n\t\tid: ID!\r\n\t\tdetails: ProjectDetails!\r\n\t\tstate: ProjectStateEnum!\r\n\t\twork: ProjectWork!\r\n\t\tisStarred: Boolean!\r\n\t\tisRequested: Boolean!\r\n\t\tcreatedAt: Date!\r\n\t\tupdatedAt: Date!\r\n\t}\r\n\r\n\textend type Query {\r\n\t\tprojects: [Project!]\r\n\t\tprojectsByUserInterests(userId: ID!): [Project!]\r\n\t\tprojectById(projectId: ID!): Project!\r\n\t}\r\n\r\n\textend type Mutation {\r\n\t\tcreateProject(input: StrictProjectInput!): Project! @auth\r\n\t\teditProject(input: LooseProjectInput!): Project! @auth\r\n\t\ttoggleStarProject(projectId: ID!): Boolean! @auth\r\n\t}\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/project/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/resolvers.ts":
+/*!***********************************!*\
+  !*** ./src/entities/resolvers.ts ***!
+  \***********************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst user_1 = __webpack_require__(/*! ./user */ \"./src/entities/user/index.ts\");\r\nconst skill_1 = __webpack_require__(/*! ./skill */ \"./src/entities/skill/index.ts\");\r\nconst message_1 = __webpack_require__(/*! ./message */ \"./src/entities/message/index.ts\");\r\nconst project_1 = __webpack_require__(/*! ./project */ \"./src/entities/project/index.ts\");\r\nconst projectRequest_1 = __webpack_require__(/*! ./projectRequest */ \"./src/entities/projectRequest/index.ts\");\r\nconst conversation_1 = __webpack_require__(/*! ./conversation */ \"./src/entities/conversation/index.ts\");\r\nconst customScalars_1 = __webpack_require__(/*! ./customScalars */ \"./src/entities/customScalars/index.ts\");\r\nexports.default = [\r\n    user_1.UserResolvers,\r\n    skill_1.SkillResolvers,\r\n    customScalars_1.CustomScalarResolvers,\r\n    message_1.MessageResolvers,\r\n    project_1.ProjectResolvers,\r\n    projectRequest_1.ProjectRequestResolvers,\r\n    conversation_1.ConversationResolvers\r\n];\r\n\n\n//# sourceURL=webpack://backend/./src/entities/resolvers.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/root/index.ts":
+/*!************************************!*\
+  !*** ./src/entities/root/index.ts ***!
+  \************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.RootTypeDef = void 0;\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/root/typedef/index.ts\");\r\nObject.defineProperty(exports, \"RootTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/root/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/root/typedef/index.ts":
+/*!********************************************!*\
+  !*** ./src/entities/root/typedef/index.ts ***!
+  \********************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\ttype Query {\r\n\t\t_: String\r\n\t}\r\n\r\n\ttype Mutation {\r\n\t\t_: String\r\n\t}\r\n\r\n\ttype Subscription {\r\n\t\t_: String\r\n\t}\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/root/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/index.ts":
+/*!*************************************!*\
+  !*** ./src/entities/skill/index.ts ***!
+  \*************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.SkillTypeDef = exports.SkillResolvers = void 0;\r\nvar resolvers_1 = __webpack_require__(/*! ./resolvers */ \"./src/entities/skill/resolvers/index.ts\");\r\nObject.defineProperty(exports, \"SkillResolvers\", ({ enumerable: true, get: function () { return __importDefault(resolvers_1).default; } }));\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/skill/typedef/index.ts\");\r\nObject.defineProperty(exports, \"SkillTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/mapper.ts":
+/*!**************************************!*\
+  !*** ./src/entities/skill/mapper.ts ***!
+  \**************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__ */
+/***/ (function(__unused_webpack_module, exports) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.mapSkillIds = exports.mapSkill = void 0;\r\nexports.mapSkill = (skill) => {\r\n    return {\r\n        id: skill.id,\r\n        name: skill.name,\r\n        color: skill.color,\r\n        description: skill.description\r\n    };\r\n};\r\nexports.mapSkillIds = (ids, context) => () => __awaiter(void 0, void 0, void 0, function* () {\r\n    return (yield context.dataloaders.skillLoader.loadMany(ids)).map(skill => exports.mapSkill(skill));\r\n});\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/mapper.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/model/index.ts":
+/*!*******************************************!*\
+  !*** ./src/entities/skill/model/index.ts ***!
+  \*******************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Skill = void 0;\r\nvar model_1 = __webpack_require__(/*! ./model */ \"./src/entities/skill/model/model.ts\");\r\nObject.defineProperty(exports, \"Skill\", ({ enumerable: true, get: function () { return __importDefault(model_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/model/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/model/model.ts":
+/*!*******************************************!*\
+  !*** ./src/entities/skill/model/model.ts ***!
+  \*******************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst Schema = mongoose_1.default.Schema;\r\nconst SkillSchema = new Schema({\r\n    name: {\r\n        type: String,\r\n        required: true\r\n    },\r\n    description: {\r\n        type: String,\r\n        required: true\r\n    },\r\n    color: {\r\n        type: String,\r\n        required: true\r\n    }\r\n});\r\nexports.default = mongoose_1.default.model(\"Skill\", SkillSchema);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/model/model.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/resolvers/index.ts":
+/*!***********************************************!*\
+  !*** ./src/entities/skill/resolvers/index.ts ***!
+  \***********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst query_1 = __importDefault(__webpack_require__(/*! ./query */ \"./src/entities/skill/resolvers/query.ts\"));\r\nconst mutation_1 = __importDefault(__webpack_require__(/*! ./mutation */ \"./src/entities/skill/resolvers/mutation.ts\"));\r\nexports.default = Object.assign(Object.assign({}, query_1.default), mutation_1.default);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/resolvers/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/resolvers/mutation.ts":
+/*!**************************************************!*\
+  !*** ./src/entities/skill/resolvers/mutation.ts ***!
+  \**************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/skill/model/index.ts\");\r\nexports.default = {\r\n    Mutation: {\r\n        createSkill: (parent, args, context, info) => {\r\n            return model_1.Skill.create(args.input);\r\n        }\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/resolvers/mutation.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/resolvers/query.ts":
+/*!***********************************************!*\
+  !*** ./src/entities/skill/resolvers/query.ts ***!
+  \***********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/skill/mapper.ts\");\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/skill/model/index.ts\");\r\nexports.default = {\r\n    Query: {\r\n        skills: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { return (yield model_1.Skill.find({})).map(skill => mapper_1.mapSkill(skill)); })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/resolvers/query.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/skill/typedef/index.ts":
+/*!*********************************************!*\
+  !*** ./src/entities/skill/typedef/index.ts ***!
+  \*********************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\tinput SkillIdInput {\r\n\t\tskillId: ID!\r\n\t}\r\n\r\n\tinput StrictSkillInput {\r\n\t\tname: String!\r\n\t\tdescription: String!\r\n\t\tcolor: String!\r\n\t}\r\n\r\n\tinput LooseSkillInput {\r\n\t\tname: String\r\n\t\tdescription: String\r\n\t\tcolor: String\r\n\t}\r\n\r\n\textend type Query {\r\n\t\tskills: [Skill!]\r\n\t}\r\n\r\n\textend type Mutation {\r\n\t\tcreateSkill(input: StrictSkillInput!): Skill! @auth\r\n\t}\r\n\r\n\ttype Skill {\r\n\t\tid: ID!\r\n\t\tname: String!\r\n\t\tdescription: String!\r\n\t\tcolor: String!\r\n\t}\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/skill/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/typedef.ts":
+/*!*********************************!*\
+  !*** ./src/entities/typedef.ts ***!
+  \*********************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst root_1 = __webpack_require__(/*! ./root */ \"./src/entities/root/index.ts\");\r\nconst user_1 = __webpack_require__(/*! ./user */ \"./src/entities/user/index.ts\");\r\nconst conversation_1 = __webpack_require__(/*! ./conversation */ \"./src/entities/conversation/index.ts\");\r\nconst message_1 = __webpack_require__(/*! ./message */ \"./src/entities/message/index.ts\");\r\nconst skill_1 = __webpack_require__(/*! ./skill */ \"./src/entities/skill/index.ts\");\r\nconst project_1 = __webpack_require__(/*! ./project */ \"./src/entities/project/index.ts\");\r\nconst projectRequest_1 = __webpack_require__(/*! ./projectRequest */ \"./src/entities/projectRequest/index.ts\");\r\nconst customScalars_1 = __webpack_require__(/*! ./customScalars */ \"./src/entities/customScalars/index.ts\");\r\nconst customDirectives_1 = __webpack_require__(/*! ./customDirectives */ \"./src/entities/customDirectives/index.ts\");\r\nexports.default = [\r\n    customScalars_1.CustomScalarTypeDef,\r\n    customDirectives_1.DirectivesTypeDef,\r\n    root_1.RootTypeDef,\r\n    user_1.UserTypeDef,\r\n    skill_1.SkillTypeDef,\r\n    message_1.MessageTypeDef,\r\n    project_1.ProjectTypeDef,\r\n    projectRequest_1.ProjectRequestTypeDef,\r\n    conversation_1.ConversationTypeDef\r\n];\r\n\n\n//# sourceURL=webpack://backend/./src/entities/typedef.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/index.ts":
+/*!************************************!*\
+  !*** ./src/entities/user/index.ts ***!
+  \************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.UserTypeDef = exports.UserResolvers = void 0;\r\nvar resolvers_1 = __webpack_require__(/*! ./resolvers */ \"./src/entities/user/resolvers/index.ts\");\r\nObject.defineProperty(exports, \"UserResolvers\", ({ enumerable: true, get: function () { return __importDefault(resolvers_1).default; } }));\r\nvar typedef_1 = __webpack_require__(/*! ./typedef */ \"./src/entities/user/typedef/index.ts\");\r\nObject.defineProperty(exports, \"UserTypeDef\", ({ enumerable: true, get: function () { return __importDefault(typedef_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/mapper.ts":
+/*!*************************************!*\
+  !*** ./src/entities/user/mapper.ts ***!
+  \*************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.mapUserIds = exports.mapUserId = exports.mapUser = void 0;\r\nconst mapper_1 = __webpack_require__(/*! ../skill/mapper */ \"./src/entities/skill/mapper.ts\");\r\nexports.mapUser = (user, context) => {\r\n    return {\r\n        id: user.id,\r\n        accountInfo: Object.assign({}, user.accountInfo),\r\n        personalInfo: Object.assign(Object.assign({}, user.personalInfo), { interests: mapper_1.mapSkillIds(user.personalInfo.interests, context) }),\r\n        statusInfo: user.statusInfo\r\n    };\r\n};\r\nexports.mapUserId = (id, context) => () => __awaiter(void 0, void 0, void 0, function* () { return exports.mapUser(yield context.dataloaders.userLoader.load(id), context); });\r\nexports.mapUserIds = (ids, context) => () => __awaiter(void 0, void 0, void 0, function* () {\r\n    return (yield context.dataloaders.userLoader.loadMany(ids)).map(user => exports.mapUser(user, context));\r\n});\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/mapper.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/model/index.ts":
+/*!******************************************!*\
+  !*** ./src/entities/user/model/index.ts ***!
+  \******************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.User = void 0;\r\nvar model_1 = __webpack_require__(/*! ./model */ \"./src/entities/user/model/model.ts\");\r\nObject.defineProperty(exports, \"User\", ({ enumerable: true, get: function () { return __importDefault(model_1).default; } }));\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/model/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/model/model.ts":
+/*!******************************************!*\
+  !*** ./src/entities/user/model/model.ts ***!
+  \******************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst bcrypt_1 = __webpack_require__(/*! bcrypt */ \"bcrypt\");\r\nconst Schema = mongoose_1.default.Schema;\r\nconst UserSchema = new Schema({\r\n    accountInfo: {\r\n        email: { type: String, required: true },\r\n        password: { type: String, required: true },\r\n        name: { type: String, required: true },\r\n        handler: { type: String, required: true },\r\n        verifiedEmail: { type: Boolean, default: false }\r\n    },\r\n    personalInfo: {\r\n        bio: { type: String, default: null },\r\n        birthDate: { type: Date, default: null },\r\n        interests: [{ type: Schema.Types.ObjectId, ref: \"Skill\" }]\r\n    },\r\n    statusInfo: {\r\n        isOnline: { type: Boolean, required: true, default: false },\r\n        lastActive: { type: Date, default: null }\r\n    },\r\n    conversations: [{ type: Schema.Types.ObjectId, ref: \"Conversation\" }]\r\n}, { timestamps: true, versionKey: \"schemaVersion\" });\r\n// hooks\r\nUserSchema.pre(\"save\", function () {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        if (this.isModified(\"accountInfo.password\")) {\r\n            this.accountInfo.password = yield bcrypt_1.hash(this.accountInfo.password, 12);\r\n        }\r\n    });\r\n});\r\n// instance methods\r\nUserSchema.methods.comparePassword = function (password) {\r\n    return bcrypt_1.compare(password, this.accountInfo.password);\r\n};\r\n// validators\r\nUserSchema.path(\"accountInfo.handler\").validate(function (value) {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const User = mongoose_1.default.model(\"User\");\r\n        return (yield User.findOne({ \"accountInfo.handler\": value })) === null;\r\n    });\r\n}, \"Handler `{VALUE}` already exist\");\r\nUserSchema.path(\"accountInfo.email\").validate(function (value) {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const User = mongoose_1.default.model(\"User\");\r\n        return (yield User.findOne({ \"accountInfo.email\": value })) === null;\r\n    });\r\n}, \"Email `{VALUE}` already registered.\");\r\nexports.default = mongoose_1.default.model(\"User\", UserSchema);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/model/model.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/resolvers/index.ts":
+/*!**********************************************!*\
+  !*** ./src/entities/user/resolvers/index.ts ***!
+  \**********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst query_1 = __importDefault(__webpack_require__(/*! ./query */ \"./src/entities/user/resolvers/query.ts\"));\r\nconst mutation_1 = __importDefault(__webpack_require__(/*! ./mutation */ \"./src/entities/user/resolvers/mutation.ts\"));\r\nconst subscription_1 = __importDefault(__webpack_require__(/*! ./subscription */ \"./src/entities/user/resolvers/subscription.ts\"));\r\nexports.default = Object.assign(Object.assign(Object.assign({}, query_1.default), mutation_1.default), subscription_1.default);\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/resolvers/index.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/resolvers/mutation.ts":
+/*!*************************************************!*\
+  !*** ./src/entities/user/resolvers/mutation.ts ***!
+  \*************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nconst jsonwebtoken_1 = __importDefault(__webpack_require__(/*! jsonwebtoken */ \"jsonwebtoken\"));\r\n// local\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/user/model/index.ts\");\r\nconst authentication_1 = __webpack_require__(/*! ../../../helpers/functions/authentication */ \"./src/helpers/functions/authentication.ts\");\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/user/mapper.ts\");\r\nconst sendVerificationEmail_1 = __webpack_require__(/*! ../../../helpers/functions/sendVerificationEmail */ \"./src/helpers/functions/sendVerificationEmail.ts\");\r\nconst config_1 = __webpack_require__(/*! ../../../config */ \"./src/config/index.ts\");\r\nexports.default = {\r\n    Mutation: {\r\n        createUser: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const user = yield model_1.User.create(args.input);\r\n            const token = jsonwebtoken_1.default.sign({ userId: user.id, email: user.accountInfo.email }, config_1.TokenConfig.tokenSecret, { expiresIn: parseInt(config_1.TokenConfig.tokenExpiry) });\r\n            sendVerificationEmail_1.sendVerificationEmail(user, token);\r\n            return mapper_1.mapUser(user, context);\r\n        }),\r\n        editUser: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            const user = yield model_1.User.findById(args.input.userId);\r\n            if (!user)\r\n                throw new apollo_server_express_1.ApolloError(\"User not found.\");\r\n            delete args.input[\"userId\"];\r\n            const doc = {\r\n                accountInfo: \"accountInfo\" in args.input\r\n                    ? Object.assign(Object.assign({}, user.toObject().accountInfo), args.input.accountInfo) : user.toObject().accountInfo,\r\n                personalInfo: \"personalInfo\" in args.input\r\n                    ? Object.assign(Object.assign({}, args.input.personalInfo), { interests: \"interests\" in args.input.personalInfo\r\n                            ? args.input.personalInfo\r\n                                .interests.map(interest => interest.skillId)\r\n                            : user.personalInfo.interests }) : user.toObject().personalInfo\r\n            };\r\n            yield user.updateOne(doc, (err, raw) => {\r\n                if (err)\r\n                    throw new apollo_server_express_1.ApolloError(err);\r\n            });\r\n            return mapper_1.mapUser(Object.assign(user, doc), context);\r\n        }),\r\n        signIn: (parent, { email, password }, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            return mapper_1.mapUser(yield authentication_1.attemptSignIn(email, password, context), context);\r\n        }),\r\n        signOut: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () {\r\n            yield model_1.User.findByIdAndUpdate(context.req.session.userId, {\r\n                \"statusInfo.lastActive\": new Date().getTime()\r\n            });\r\n            return authentication_1.attemptSignOut(context);\r\n        })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/resolvers/mutation.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/resolvers/query.ts":
+/*!**********************************************!*\
+  !*** ./src/entities/user/resolvers/query.ts ***!
+  \**********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\n//local\r\nconst model_1 = __webpack_require__(/*! ../model */ \"./src/entities/user/model/index.ts\");\r\nconst mapper_1 = __webpack_require__(/*! ../mapper */ \"./src/entities/user/mapper.ts\");\r\nexports.default = {\r\n    Query: {\r\n        users: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { return (yield model_1.User.find({})).map(userDoc => mapper_1.mapUser(userDoc, context)); }),\r\n        me: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { return mapper_1.mapUser(yield model_1.User.findById(context.req.session.userId), context); }),\r\n        user: (parent, args, context, info) => __awaiter(void 0, void 0, void 0, function* () { return mapper_1.mapUser(yield model_1.User.findById(args.userId), context); })\r\n    }\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/resolvers/query.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/resolvers/subscription.ts":
+/*!*****************************************************!*\
+  !*** ./src/entities/user/resolvers/subscription.ts ***!
+  \*****************************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__ */
+/***/ ((__unused_webpack_module, exports) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.default = {\r\n    Subscription: {}\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/resolvers/subscription.ts?");
+
+/***/ }),
+
+/***/ "./src/entities/user/typedef/index.ts":
+/*!********************************************!*\
+  !*** ./src/entities/user/typedef/index.ts ***!
+  \********************************************/
+/*! flagged exports */
+/*! export __esModule [provided] [no usage info] [missing usage info prevents renaming] */
+/*! export default [provided] [no usage info] [missing usage info prevents renaming] */
+/*! other exports [not provided] [no usage info] */
+/*! runtime requirements: __webpack_exports__, __webpack_require__ */
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nexports.default = apollo_server_express_1.gql `\r\n\tinput StrictUserAccountInfoInput {\r\n\t\temail: String!\r\n\t\tpassword: String!\r\n\t\thandler: String!\r\n\t\tname: String!\r\n\t}\r\n\r\n\tinput StrictUserInput {\r\n\t\taccountInfo: StrictUserAccountInfoInput!\r\n\t}\r\n\r\n\tinput LooseUserPersonalInfoInput {\r\n\t\tbio: String\r\n\t\tbirthDate: Date\r\n\t\tinterests: [SkillIdInput!]\r\n\t}\r\n\r\n\tinput LooseUserAccountInfoInput {\r\n\t\temail: String\r\n\t\tpassword: String\r\n\t\thandler: String\r\n\t\tname: String\r\n\t}\r\n\r\n\tinput LooseUserInput {\r\n\t\tuserId: ID!\r\n\t\taccountInfo: LooseUserAccountInfoInput\r\n\t\tpersonalInfo: LooseUserPersonalInfoInput\r\n\t}\r\n\r\n\textend type Query {\r\n\t\tusers: [User!]\r\n\t\tuser(userId: ID!): User!\r\n\t\tme: User! @auth\r\n\t}\r\n\r\n\textend type Mutation {\r\n\t\tcreateUser(input: StrictUserInput!): User! @guest\r\n\t\teditUser(input: LooseUserInput!): User! @auth\r\n\t\tsignIn(email: String!, password: String!): User! @guest\r\n\t\tsignOut: Boolean! @auth\r\n\t}\r\n\r\n\ttype UserAccountInfo {\r\n\t\tname: String!\r\n\t\temail: String\r\n\t\tpassword: String\r\n\t\thandler: String!\r\n\t\tverifiedEmail: Boolean!\r\n\t}\r\n\r\n\ttype UserPersonalInfo {\r\n\t\tbio: String\r\n\t\tbirthDate: Date\r\n\t\tinterests: [Skill!]\r\n\t}\r\n\r\n\ttype UserStatusInfo {\r\n\t\tisOnline: Boolean!\r\n\t\tlastActive: Date\r\n\t}\r\n\r\n\ttype User {\r\n\t\tid: ID!\r\n\t\taccountInfo: UserAccountInfo!\r\n\t\tpersonalInfo: UserPersonalInfo!\r\n\t\tstatusInfo: UserStatusInfo!\r\n\t\tconversations: [Conversation!]\r\n\t}\r\n`;\r\n\n\n//# sourceURL=webpack://backend/./src/entities/user/typedef/index.ts?");
+
+/***/ }),
+
+/***/ "./src/helpers/emailer/index.ts":
+/*!**************************************!*\
+  !*** ./src/helpers/emailer/index.ts ***!
+  \**************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst nodemailer_1 = __importDefault(__webpack_require__(/*! nodemailer */ \"nodemailer\"));\r\nconst config_1 = __webpack_require__(/*! ../../config */ \"./src/config/index.ts\");\r\nexports.default = nodemailer_1.default.createTransport({\r\n    service: \"gmail\",\r\n    sender: config_1.GmailConfig.gmailSender,\r\n    auth: {\r\n        user: config_1.GmailConfig.gmailUser,\r\n        pass: config_1.GmailConfig.gmailPassword\r\n    }\r\n});\r\n\n\n//# sourceURL=webpack://backend/./src/helpers/emailer/index.ts?");
+
+/***/ }),
+
+/***/ "./src/helpers/functions/authentication.ts":
+/*!*************************************************!*\
+  !*** ./src/helpers/functions/authentication.ts ***!
+  \*************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.attemptSignOut = exports.attemptSignIn = exports.ensureSignedOut = exports.ensureSignedIn = void 0;\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\n//local\r\nconst model_1 = __webpack_require__(/*! ../../entities/user/model */ \"./src/entities/user/model/index.ts\");\r\nconst config_1 = __webpack_require__(/*! ../../config */ \"./src/config/index.ts\");\r\nexports.ensureSignedIn = (context) => {\r\n    if (!context.req.session.userId)\r\n        throw new apollo_server_express_1.AuthenticationError(\"You must be signed in.\");\r\n};\r\nexports.ensureSignedOut = (context) => {\r\n    if (context.req.session.userId)\r\n        throw new apollo_server_express_1.AuthenticationError(\"You must be signed out.\");\r\n};\r\nexports.attemptSignIn = (email, password, context) => __awaiter(void 0, void 0, void 0, function* () {\r\n    const user = yield model_1.User.findOne({ \"accountInfo.email\": email });\r\n    if (!user)\r\n        throw new apollo_server_express_1.AuthenticationError(\"Incorrect password or email. Please try again\");\r\n    if (!(yield user.comparePassword(password)))\r\n        throw new apollo_server_express_1.AuthenticationError(\"Incorrect password or email. Please try again.\");\r\n    const result = yield model_1.User.findByIdAndUpdate(user.id, { isOnline: true }, (err, res) => {\r\n        if (err)\r\n            throw new apollo_server_express_1.ApolloError(err);\r\n    });\r\n    context.req.session.userId = user.id;\r\n    return result;\r\n});\r\nexports.attemptSignOut = (context) => {\r\n    return new Promise((resolve, reject) => {\r\n        model_1.User.updateOne({ _id: context.req.session.userId }, { isOnline: false }, (err, res) => {\r\n            if (err)\r\n                reject(err);\r\n        });\r\n        context.req.session.destroy(err => {\r\n            if (err)\r\n                reject(err);\r\n            context.res.clearCookie(config_1.SessionConfig.sessionName);\r\n            resolve(true);\r\n        });\r\n    });\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/helpers/functions/authentication.ts?");
+
+/***/ }),
+
+/***/ "./src/helpers/functions/sendVerificationEmail.ts":
+/*!********************************************************!*\
+  !*** ./src/helpers/functions/sendVerificationEmail.ts ***!
+  \********************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.sendVerificationEmail = void 0;\r\nconst emailer_1 = __importDefault(__webpack_require__(/*! ../emailer */ \"./src/helpers/emailer/index.ts\"));\r\nexports.sendVerificationEmail = (user, token) => {\r\n    emailer_1.default.sendMail({\r\n        from: '\"Prashant Joshi (CEO)\" <no-reply@collabs.com>',\r\n        to: `${user.accountInfo.email}`,\r\n        subject: \"Please verify your email address\",\r\n        html: `\r\n\t\t<html>\r\n\t\t<head>\r\n\t\t\t<style>\r\n\t\t\t\t* {\r\n\t\t\t\t\tfont-family: \"Proxima Nova\";\r\n\t\t\t\t}\r\n\t\t\t\t\r\n\t\t\t\tdiv.main {\r\n\t\t\t\t\twidth: fit-content;\r\n\t\t\t\t\tmargin: 2rem auto;\r\n\t\t\t\t}\r\n\t\t\t\t\r\n\t\t\t\tp {\r\n\t\t\t\t\tfont-size: 1rem;\r\n\t\t\t\t}\r\n\t\t\t\t\r\n\t\t\t\ta {\r\n\t\t\t\t\tmargin: 1rem auto;\r\n\t\t\t\t\tdisplay: inline-block;\r\n\t\t\t\t\tpadding: 1rem;\r\n\t\t\t\t\ttext-decoration: none;\r\n\t\t\t\t\tborder-radius: 4pt;\r\n\t\t\t\t\tbackground-color: blue;\r\n\t\t\t\t\tfont-weight: bold;\r\n\t\t\t\t\tcolor: white;\r\n\t\t\t\t}\r\n\t\t\t\t\r\n\t\t\t\ta:hover {\r\n\t\t\t\t\tbackground-color: darkblue;\r\n\t\t\t\t\tcolor: white;\r\n\t\t\t\t}\r\n\r\n\t\t\t\tp.footer {\r\n\t\t\t\t\tfont-size: .8rem;\r\n\t\t\t\t\tcolor: grey;\r\n\t\t\t\t}\r\n\t\t\t</style>\r\n\t\t</head>\r\n\t\t<body>\r\n\t\t\t<div class=\"main\">\r\n\t\t\t<h1>\r\n\t\t\t\tThank you for registering for Collabs.io\r\n\t\t\t</h1>\r\n\t\t\t<hr>\r\n\t\t\t<p>\r\n\t\t\t\tHey,<br>\r\n\t\t\t\tI am the CEO of <b>Collabs.io</b>, and you have a great journey ahead with us.<br>\r\n\t\t\t\tYou can confirm your email by cliking the button below.\r\n\t\t\t</p>\r\n\t\t\t<a href=\"http:localhost:4000/auth/verify-email/${token}\">\r\n\t\t\t\tConfirm your email\r\n\t\t\t</a>\r\n\t\t\t<p class=\"footer\">\r\n\t\t\t\tCollabs.io\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t\t</body>\r\n\t</html>\t\r\n    `\r\n    });\r\n    return token;\r\n};\r\n\n\n//# sourceURL=webpack://backend/./src/helpers/functions/sendVerificationEmail.ts?");
+
+/***/ }),
+
+/***/ "./src/index.ts":
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/*! CommonJS bailout: this is used directly at 2:17-21 */
+/*! CommonJS bailout: this is used directly at 11:23-27 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst connectDb_1 = __importDefault(__webpack_require__(/*! ./connectDb */ \"./src/connectDb.ts\"));\r\nconst startServer_1 = __importDefault(__webpack_require__(/*! ./startServer */ \"./src/startServer.ts\"));\r\n(() => __awaiter(void 0, void 0, void 0, function* () {\r\n    yield connectDb_1.default();\r\n    yield startServer_1.default();\r\n}))();\r\n\n\n//# sourceURL=webpack://backend/./src/index.ts?");
+
+/***/ }),
+
+/***/ "./src/routes/auth/index.ts":
+/*!**********************************!*\
+  !*** ./src/routes/auth/index.ts ***!
+  \**********************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst express_1 = __importDefault(__webpack_require__(/*! express */ \"express\"));\r\nconst verifyEmail_1 = __importDefault(__webpack_require__(/*! ./verifyEmail */ \"./src/routes/auth/verifyEmail/index.ts\"));\r\nconst authRoute = express_1.default.Router();\r\nauthRoute.use(\"/verify-email\", verifyEmail_1.default);\r\nexports.default = authRoute;\r\n\n\n//# sourceURL=webpack://backend/./src/routes/auth/index.ts?");
+
+/***/ }),
+
+/***/ "./src/routes/auth/verifyEmail/index.ts":
+/*!**********************************************!*\
+  !*** ./src/routes/auth/verifyEmail/index.ts ***!
+  \**********************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst express_1 = __importDefault(__webpack_require__(/*! express */ \"express\"));\r\nconst verifyEmail_1 = __importDefault(__webpack_require__(/*! ./verifyEmail */ \"./src/routes/auth/verifyEmail/verifyEmail.ts\"));\r\nconst route = express_1.default.Router();\r\nroute.use(\"/:token\", verifyEmail_1.default);\r\nexports.default = route;\r\n\n\n//# sourceURL=webpack://backend/./src/routes/auth/verifyEmail/index.ts?");
+
+/***/ }),
+
+/***/ "./src/routes/auth/verifyEmail/verifyEmail.ts":
+/*!****************************************************!*\
+  !*** ./src/routes/auth/verifyEmail/verifyEmail.ts ***!
+  \****************************************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst jsonwebtoken_1 = __importDefault(__webpack_require__(/*! jsonwebtoken */ \"jsonwebtoken\"));\r\n//local\r\nconst config_1 = __webpack_require__(/*! ../../../config */ \"./src/config/index.ts\");\r\nconst model_1 = __webpack_require__(/*! ../../../entities/user/model */ \"./src/entities/user/model/index.ts\");\r\nfunction default_1(req, res, next) {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const { token } = req.params;\r\n        try {\r\n            const payload = (yield jsonwebtoken_1.default.verify(token, config_1.TokenConfig.tokenSecret));\r\n            yield model_1.User.findByIdAndUpdate(payload.userId, {\r\n                \"accountInfo.verifiedEmail\": true\r\n            });\r\n            res.send(`<h1>Your email ${payload.email} is verified</h1>`);\r\n            next();\r\n        }\r\n        catch (err) {\r\n            res.send(\"<h1>Token is expired</h1>\");\r\n            next();\r\n        }\r\n    });\r\n}\r\nexports.default = default_1;\r\n\n\n//# sourceURL=webpack://backend/./src/routes/auth/verifyEmail/verifyEmail.ts?");
+
+/***/ }),
+
+/***/ "./src/routes/index.ts":
+/*!*****************************!*\
+  !*** ./src/routes/index.ts ***!
+  \*****************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst express_1 = __importDefault(__webpack_require__(/*! express */ \"express\"));\r\nconst auth_1 = __importDefault(__webpack_require__(/*! ./auth */ \"./src/routes/auth/index.ts\"));\r\nconst routes = express_1.default.Router();\r\nroutes.use(\"/auth\", auth_1.default);\r\nroutes.get(\"/\", (req, res, next) => {\r\n    res.status(200).json({ message: \"Connected!\" });\r\n    next();\r\n});\r\nexports.default = routes;\r\n\n\n//# sourceURL=webpack://backend/./src/routes/index.ts?");
+
+/***/ }),
+
+/***/ "./src/session.ts":
+/*!************************!*\
+  !*** ./src/session.ts ***!
+  \************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst mongoose_1 = __importDefault(__webpack_require__(/*! mongoose */ \"mongoose\"));\r\nconst connect_mongo_1 = __importDefault(__webpack_require__(/*! connect-mongo */ \"connect-mongo\"));\r\nconst express_session_1 = __importDefault(__webpack_require__(/*! express-session */ \"express-session\"));\r\nconst config_1 = __webpack_require__(/*! ./config */ \"./src/config/index.ts\");\r\nconst config_2 = __webpack_require__(/*! ./config */ \"./src/config/index.ts\");\r\nconst MongoStore = connect_mongo_1.default(express_session_1.default);\r\nconst connection = mongoose_1.default.createConnection(`mongodb+srv://${config_2.MongoConfig.mongoUserName}:${config_2.MongoConfig.mongoUserPassword}@cluster0.vuqtk.mongodb.net/${config_2.MongoConfig.mongoDatabaseName}?retryWrites=true&w=majority`, { useUnifiedTopology: true, useNewUrlParser: true });\r\nconnection.on(\"error\", function (err) {\r\n    console.log(\"[MONGOSTORE] Error connecting to MongoStore\");\r\n});\r\nconst store = new MongoStore({\r\n    mongooseConnection: connection,\r\n    collection: \"sessions\"\r\n});\r\nstore.on(\"error\", function (error) {\r\n    console.log(\"[SERVER]  Error connecting to the mongodb store\");\r\n});\r\nconst mySession = express_session_1.default({\r\n    store,\r\n    name: config_1.SessionConfig.sessionName,\r\n    secret: config_1.SessionConfig.sessionSecret,\r\n    rolling: true,\r\n    resave: true,\r\n    saveUninitialized: false,\r\n    cookie: {\r\n        maxAge: parseInt(config_1.SessionConfig.sessionLifetime)\r\n    }\r\n});\r\nexports.default = mySession;\r\n\n\n//# sourceURL=webpack://backend/./src/session.ts?");
+
+/***/ }),
+
+/***/ "./src/startServer.ts":
+/*!****************************!*\
+  !*** ./src/startServer.ts ***!
+  \****************************/
+/*! unknown exports (runtime-defined) */
+/*! runtime requirements: top-level-this-exports, __webpack_exports__, __webpack_require__ */
+/*! CommonJS bailout: this is used directly at 2:17-21 */
+/*! CommonJS bailout: this is used directly at 11:23-27 */
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+eval("\r\nvar __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {\r\n    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }\r\n    return new (P || (P = Promise))(function (resolve, reject) {\r\n        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }\r\n        function rejected(value) { try { step(generator[\"throw\"](value)); } catch (e) { reject(e); } }\r\n        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }\r\n        step((generator = generator.apply(thisArg, _arguments || [])).next());\r\n    });\r\n};\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst apollo_server_express_1 = __webpack_require__(/*! apollo-server-express */ \"apollo-server-express\");\r\nconst express_1 = __importDefault(__webpack_require__(/*! express */ \"express\"));\r\n//local\r\nconst entities_1 = __webpack_require__(/*! ./entities */ \"./src/entities/index.ts\");\r\nconst customDirectives_1 = __importDefault(__webpack_require__(/*! ./entities/customDirectives */ \"./src/entities/customDirectives/index.ts\"));\r\nconst session_1 = __importDefault(__webpack_require__(/*! ./session */ \"./src/session.ts\"));\r\nconst dataloaders_1 = __importDefault(__webpack_require__(/*! ./dataloaders */ \"./src/dataloaders/index.ts\"));\r\nconst routes_1 = __importDefault(__webpack_require__(/*! ./routes */ \"./src/routes/index.ts\"));\r\nconst config_1 = __webpack_require__(/*! ./config */ \"./src/config/index.ts\");\r\nfunction default_1() {\r\n    return __awaiter(this, void 0, void 0, function* () {\r\n        const app = express_1.default();\r\n        app.disable(\"x-powered-by\");\r\n        app.use(\"/\", routes_1.default);\r\n        app.use(session_1.default);\r\n        const server = new apollo_server_express_1.ApolloServer({\r\n            typeDefs: entities_1.TypeDefs,\r\n            resolvers: entities_1.Resolvers,\r\n            schemaDirectives: customDirectives_1.default,\r\n            playground: config_1.NodeConfig.nodeEnvironment === \"production\"\r\n                ? false\r\n                : {\r\n                    settings: {\r\n                        \"request.credentials\": \"include\"\r\n                    }\r\n                },\r\n            context: ({ req, res }) => __awaiter(this, void 0, void 0, function* () {\r\n                return {\r\n                    req,\r\n                    res,\r\n                    dataloaders: dataloaders_1.default\r\n                };\r\n            })\r\n        });\r\n        const origin =  false\r\n            ? 0\r\n            : \"http://localhost:8080\";\r\n        server.applyMiddleware({\r\n            app,\r\n            cors: {\r\n                credentials: true,\r\n                origin\r\n            }\r\n        });\r\n        app.listen({ port: process.env.PORT || 4000 }, () => {\r\n            console.log(`[SERVER] ready at http://localhost:4000${server.graphqlPath}`);\r\n        });\r\n    });\r\n}\r\nexports.default = default_1;\r\n\n\n//# sourceURL=webpack://backend/./src/startServer.ts?");
+
+/***/ }),
+
+/***/ "apollo-server-express":
+/*!****************************************!*\
+  !*** external "apollo-server-express" ***!
+  \****************************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"apollo-server-express\");;\n\n//# sourceURL=webpack://backend/external_%22apollo-server-express%22?");
+
+/***/ }),
+
+/***/ "bcrypt":
+/*!*************************!*\
+  !*** external "bcrypt" ***!
+  \*************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"bcrypt\");;\n\n//# sourceURL=webpack://backend/external_%22bcrypt%22?");
+
+/***/ }),
+
+/***/ "connect-mongo":
+/*!********************************!*\
+  !*** external "connect-mongo" ***!
+  \********************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"connect-mongo\");;\n\n//# sourceURL=webpack://backend/external_%22connect-mongo%22?");
+
+/***/ }),
+
+/***/ "dataloader":
+/*!*****************************!*\
+  !*** external "dataloader" ***!
+  \*****************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"dataloader\");;\n\n//# sourceURL=webpack://backend/external_%22dataloader%22?");
+
+/***/ }),
+
+/***/ "dotenv":
+/*!*************************!*\
+  !*** external "dotenv" ***!
+  \*************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"dotenv\");;\n\n//# sourceURL=webpack://backend/external_%22dotenv%22?");
+
+/***/ }),
+
+/***/ "express":
+/*!**************************!*\
+  !*** external "express" ***!
+  \**************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"express\");;\n\n//# sourceURL=webpack://backend/external_%22express%22?");
+
+/***/ }),
+
+/***/ "express-session":
+/*!**********************************!*\
+  !*** external "express-session" ***!
+  \**********************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"express-session\");;\n\n//# sourceURL=webpack://backend/external_%22express-session%22?");
+
+/***/ }),
+
+/***/ "graphql":
+/*!**************************!*\
+  !*** external "graphql" ***!
+  \**************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"graphql\");;\n\n//# sourceURL=webpack://backend/external_%22graphql%22?");
+
+/***/ }),
+
+/***/ "graphql/language":
+/*!***********************************!*\
+  !*** external "graphql/language" ***!
+  \***********************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"graphql/language\");;\n\n//# sourceURL=webpack://backend/external_%22graphql/language%22?");
+
+/***/ }),
+
+/***/ "jsonwebtoken":
+/*!*******************************!*\
+  !*** external "jsonwebtoken" ***!
+  \*******************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"jsonwebtoken\");;\n\n//# sourceURL=webpack://backend/external_%22jsonwebtoken%22?");
+
+/***/ }),
+
+/***/ "mongoose":
+/*!***************************!*\
+  !*** external "mongoose" ***!
+  \***************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"mongoose\");;\n\n//# sourceURL=webpack://backend/external_%22mongoose%22?");
+
+/***/ }),
+
+/***/ "nodemailer":
+/*!*****************************!*\
+  !*** external "nodemailer" ***!
+  \*****************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"nodemailer\");;\n\n//# sourceURL=webpack://backend/external_%22nodemailer%22?");
+
+/***/ }),
+
+/***/ "ramda":
+/*!************************!*\
+  !*** external "ramda" ***!
+  \************************/
+/*! dynamic exports */
+/*! exports [maybe provided (runtime-defined)] [no usage info] */
+/*! runtime requirements: module */
+/***/ ((module) => {
+
+eval("module.exports = require(\"ramda\");;\n\n//# sourceURL=webpack://backend/external_%22ramda%22?");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		if(__webpack_module_cache__[moduleId]) {
+/******/ 			return __webpack_module_cache__[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	// startup
+/******/ 	// Load entry module
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	__webpack_require__("./src/index.ts");
+/******/ })()
+;

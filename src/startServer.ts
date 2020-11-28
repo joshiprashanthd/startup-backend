@@ -1,5 +1,6 @@
 import { ApolloServer } from "apollo-server-express";
 import express from "express";
+import cors from "cors";
 
 //local
 import { TypeDefs, Resolvers } from "./entities";
@@ -13,7 +14,18 @@ import { NodeConfig } from "./config";
 export default async function () {
 	const app = express();
 
+	const origin =
+		process.env.NODE_ENV === "production"
+			? "https://yourcollab.netlify.app"
+			: "http://localhost:8080";
+
 	app.disable("x-powered-by");
+	app.use(
+		cors({
+			origin,
+			credentials: true
+		})
+	);
 	app.use("/", routes);
 	app.use(session);
 
@@ -42,7 +54,7 @@ export default async function () {
 		app,
 		cors: {
 			credentials: true,
-			origin: "https://yourcollab.netlify.app"
+			origin
 		}
 	});
 
