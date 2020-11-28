@@ -14,11 +14,6 @@ import { NodeConfig } from "./config";
 export default async function () {
 	const app = express();
 
-	const origin =
-		process.env.NODE_ENV === "production"
-			? "https://yourcollab.netlify.app"
-			: "http://localhost:8080";
-
 	app.disable("x-powered-by");
 	app.use("/", routes);
 	app.use(session);
@@ -44,11 +39,16 @@ export default async function () {
 		}
 	});
 
+	const origin =
+		process.env.NODE_ENV === "production"
+			? "https://yourcollab.netlify.app"
+			: "http://localhost:8080";
+
 	server.applyMiddleware({
 		app,
 		cors: {
 			credentials: true,
-			origin: new RegExp("/*/")
+			origin: origin
 		}
 	});
 
