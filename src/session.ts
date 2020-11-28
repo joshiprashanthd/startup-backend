@@ -31,6 +31,7 @@ const mySession = session({
 	resave: true,
 	saveUninitialized: false,
 	cookie: {
+		httpOnly: false,
 		maxAge: parseInt(SessionConfig.sessionLifetime)
 	}
 });
