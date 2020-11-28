@@ -20,17 +20,6 @@ export default async function () {
 			: "http://localhost:8080";
 
 	app.disable("x-powered-by");
-	app.use(
-		cors({
-			allowedHeaders: [
-				"Access-Control-Allow-Credentials",
-				"Access-Control-Allow-Origin",
-				"Access-Control-Allow-Headers"
-			],
-			origin: "https://yourcollab.netlify.app",
-			credentials: true
-		})
-	);
 	app.use("/", routes);
 	app.use(session);
 
@@ -58,13 +47,8 @@ export default async function () {
 	server.applyMiddleware({
 		app,
 		cors: {
-			allowedHeaders: [
-				"Access-Control-Allow-Credentials",
-				"Access-Control-Allow-Origin",
-				"Access-Control-Allow-Headers"
-			],
 			credentials: true,
-			origin: "https://yourcollab.netlify.app"
+			origin: "*"
 		}
 	});
 
