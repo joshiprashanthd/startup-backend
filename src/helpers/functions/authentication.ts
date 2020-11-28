@@ -41,6 +41,7 @@ export const attemptSignIn = async (
 	);
 
 	context.req.session.userId = user.id;
+	console.log(context.req.session);
 
 	return result;
 };

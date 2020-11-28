@@ -8,6 +8,7 @@ export default class AuthDirective extends SchemaDirectiveVisitor {
 		const { resolve = defaultFieldResolver } = field;
 		field.resolve = async function (...args) {
 			const [_, __, context] = args;
+			console.log(context.req.session);
 			ensureSignedIn(context as IContext);
 			return resolve.apply(this, args);
 		};
