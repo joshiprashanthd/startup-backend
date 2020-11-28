@@ -62,6 +62,7 @@ export default {
 				personalInfo:
 					"personalInfo" in args.input
 						? {
+								...user.toObject().personalInfo,
 								...args.input.personalInfo,
 								interests:
 									"interests" in args.input.personalInfo
