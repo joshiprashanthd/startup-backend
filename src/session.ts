@@ -31,8 +31,6 @@ const mySession = session({
 	resave: true,
 	saveUninitialized: false,
 	cookie: {
-		domain: "https://yourcollab.netlify.app/",
-		secure: true,
 		maxAge: parseInt(SessionConfig.sessionLifetime)
 	}
 });
