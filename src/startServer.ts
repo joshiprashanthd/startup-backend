@@ -13,11 +13,9 @@ import { NodeConfig } from "./config";
 export default async function () {
 	const app = express();
 
-	if (NodeConfig.nodeEnvironment === "production") app.set("trust proxy", 1);
-
 	app.disable("x-powered-by");
-	app.use("/", routes);
 	app.use(session);
+	app.use("/", routes);
 
 	const server = new ApolloServer({
 		typeDefs: TypeDefs,
@@ -44,8 +42,6 @@ export default async function () {
 		process.env.NODE_ENV === "production"
 			? "https://yourcollab.netlify.app"
 			: "http://localhost:8080";
-
-	console.log("Origin : ", origin);
 
 	server.applyMiddleware({
 		app,
