@@ -23,16 +23,21 @@ const store = new MongoStore({
 	console.log("[SERVER]  Error connecting to the mongodb store");
 });
 
+const domain =
+	process.env.NODE_ENV === "production"
+		? "https://yourcollab.netlify.app"
+		: "http://localhost:8080";
+
 const mySession = session({
 	store,
 	name: SessionConfig.sessionName,
 	secret: SessionConfig.sessionSecret,
 	rolling: true,
-	resave: false,
+	resave: true,
 	saveUninitialized: false,
 	cookie: {
-		maxAge: parseInt(SessionConfig.sessionLifetime),
-		sameSite: false
+		domain,
+		maxAge: parseInt(SessionConfig.sessionLifetime)
 	}
 });
 
