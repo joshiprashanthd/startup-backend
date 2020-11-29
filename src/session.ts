@@ -29,7 +29,7 @@ const mySession = session({
 	secret: SessionConfig.sessionSecret,
 	rolling: true,
 	resave: true,
-	saveUninitialized: true,
+	saveUninitialized: false,
 	cookie: {
 		maxAge: parseInt(SessionConfig.sessionLifetime)
 	}
