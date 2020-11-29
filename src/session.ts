@@ -28,11 +28,11 @@ const mySession = session({
 	name: SessionConfig.sessionName,
 	secret: SessionConfig.sessionSecret,
 	rolling: true,
-	resave: true,
+	resave: false,
 	saveUninitialized: false,
 	cookie: {
-		httpOnly: false,
-		maxAge: parseInt(SessionConfig.sessionLifetime)
+		maxAge: parseInt(SessionConfig.sessionLifetime),
+		sameSite: false
 	}
 });
 
