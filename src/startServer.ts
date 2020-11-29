@@ -43,8 +43,6 @@ export default async function () {
 			? "https://yourcollab.netlify.app"
 			: "http://localhost:8080";
 
-	console.log("Origin : ", origin);
-
 	server.applyMiddleware({
 		app,
 		cors: {
