@@ -44,11 +44,11 @@ export default async function () {
 			: "http://localhost:8080";
 
 	server.applyMiddleware({
-		app,
-		cors: {
-			credentials: true,
-			origin: origin
-		}
+		app
+		// cors: {
+		// 	credentials: true,
+		// 	origin: origin
+		// }
 	});
 
 	app.listen({ port: process.env.PORT || 4000 }, () => {
