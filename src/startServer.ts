@@ -51,11 +51,7 @@ export default async function () {
 	});
 
 	server.applyMiddleware({
-		app,
-		cors: {
-			credentials: true,
-			origin
-		}
+		app
 	});
 
 	app.listen({ port: process.env.PORT || 4000 }, () => {
