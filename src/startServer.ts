@@ -9,11 +9,23 @@ import dataloaders from "./dataloaders";
 import routes from "./routes";
 import { IContext } from "./types";
 import { NodeConfig } from "./config";
+import cors from "cors";
 
 export default async function () {
 	const app = express();
 
+	const origin =
+		process.env.NODE_ENV === "production"
+			? "https://yourcollab.netlify.app"
+			: "http://localhost:8080";
+
 	app.disable("x-powered-by");
+	app.use(
+		cors({
+			origin,
+			credentials: true
+		})
+	);
 	app.use(session);
 	app.use("/", routes);
 
@@ -38,16 +50,11 @@ export default async function () {
 		}
 	});
 
-	const origin =
-		process.env.NODE_ENV === "production"
-			? "https://yourcollab.netlify.app"
-			: "http://localhost:8080";
-
 	server.applyMiddleware({
 		app,
 		cors: {
 			credentials: true,
-			origin: origin
+			origin
 		}
 	});
 
