@@ -35,12 +35,12 @@ export default async function () {
 			next();
 		}
 	});
-	// app.use(
-	// 	cors({
-	// 		origin,
-	// 		credentials: true
-	// 	})
-	// );
+	app.use(
+		cors({
+			origin,
+			credentials: true
+		})
+	);
 	app.use(session);
 	app.use("/", routes);
 
