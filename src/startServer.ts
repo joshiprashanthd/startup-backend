@@ -23,6 +23,7 @@ export default async function () {
 	app.use(
 		cors({
 			origin,
+			optionsSuccessStatus: 200,
 			credentials: true
 		})
 	);
@@ -53,8 +54,9 @@ export default async function () {
 	server.applyMiddleware({
 		app,
 		cors: {
-			credentials: true,
-			origin
+			origin,
+			optionsSuccessStatus: 200,
+			credentials: true
 		}
 	});
 
