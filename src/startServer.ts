@@ -59,6 +59,6 @@ export default async function () {
 	});
 
 	app.listen({ port: process.env.PORT || 4000 }, () => {
-		console.log(`[SERVER] ready at http://localhost:4000${server.graphqlPath}`);
+		console.log(`[SERVER] ready at ${origin}${server.graphqlPath}`);
 	});
 }
