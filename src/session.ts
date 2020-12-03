@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import connectMongo from "connect-mongo";
 import session from "express-session";
-import { SessionConfig } from "./config";
+import { NodeConfig, SessionConfig } from "./config";
 import { MongoConfig } from "./config";
 
 const MongoStore = connectMongo(session);
@@ -32,8 +32,8 @@ const mySession = session({
 	saveUninitialized: false,
 	cookie: {
 		maxAge: parseInt(SessionConfig.sessionLifetime),
-		secure: true,
-		httpOnly: false
+		secure: NodeConfig.nodeEnvironment === "production",
+		httpOnly: true
 	}
 });
 
